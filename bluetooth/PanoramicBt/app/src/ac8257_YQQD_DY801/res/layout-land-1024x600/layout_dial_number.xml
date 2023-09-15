@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="732px"
+    android:layout_height="83px"
+    android:layout_marginStart="@dimen/dial_key_marginstart"
+    android:layout_marginTop="15px"
+    android:background="@drawable/dial_num_bg">
+
+    <!-- android:text="@string/tv_dial_conn"-->
+    <TextView
+        android:id="@+id/tv_dial_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="580dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="@dimen/dial_txt_margin"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:singleLine="true"
+        android:textColor="#ddffffff"
+        android:textDirection="anyRtl"
+        android:textSize="@dimen/dial_txt_size"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/iv_btn_del"
+        android:layout_width="@dimen/del_width"
+        android:layout_height="@dimen/del_height"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/iv_btn_del_selector"
+        android:layout_marginEnd="25dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:layoutDirection="ltr">
+    <!--    android:id="@id/rl_call_bg">-->
+
+    <!--    &lt;!&ndash; 全屏通话界面 start &ndash;&gt;-->
+    <!--    <FrameLayout-->
+    <!--        android:id="@id/fl_screen_page"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginTop="@dimen/phone_call_margin_top"-->
+    <!--        android:layout_marginBottom="@dimen/phone_call_margin_bottom">-->
+
+    <!--        &lt;!&ndash; 通话中和去电的布局 &ndash;&gt;-->
+    <!--        <include-->
+    <!--            android:id="@id/ll_screen_taking"-->
+    <!--            layout="@layout/include_screen_taking" />-->
+
+    <!--        &lt;!&ndash; 来电的布局 &ndash;&gt;-->
+    <!--        <include-->
+    <!--            android:id="@id/ll_screen_incoming"-->
+    <!--            layout="@layout/include_screen_incoming"-->
+    <!--            android:visibility="gone" />-->
+
+    <!--        &lt;!&ndash; 键盘 &ndash;&gt;-->
+    <!--        <include-->
+    <!--            android:id="@id/rl_keypad"-->
+    <!--            layout="@layout/include_keypad"-->
+    <!--            android:visibility="gone" />-->
+
+    <!--        &lt;!&ndash; 联系人列表 &ndash;&gt;-->
+    <!--        <include-->
+    <!--            android:id="@id/ll_contacts"-->
+    <!--            layout="@layout/include_contacts"-->
+    <!--            android:visibility="gone" />-->
+    <!--    </FrameLayout>-->
+    <!--    &lt;!&ndash; 全屏通话界面 end &ndash;&gt;-->
+
+    <!--    &lt;!&ndash; 半屏通话界面 start &ndash;&gt;-->
+    <!--    <include-->
+    <!--        android:id="@id/ll_half_screen_incoming"-->
+    <!--        layout="@layout/include_half_screen_incoming"-->
+    <!--        android:visibility="gone" />-->
+
+    <!--    <include-->
+    <!--        android:id="@id/rl_half_screen_talking"-->
+    <!--        layout="@layout/include_half_screen_talking"-->
+    <!--        android:visibility="gone" />-->
+    <!--    &lt;!&ndash; 半屏通话界面 end &ndash;&gt;-->
+
+</RelativeLayout>

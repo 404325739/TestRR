@@ -1,0 +1,36 @@
+<resources>
+
+    <dimen name="main_layout_bar_width">128px</dimen>
+    <dimen name="dial_txt_height">100px</dimen>
+    <dimen name="dial_num_margin">5px</dimen>
+    <dimen name="dial_line_margin">5px</dimen>
+    <dimen name="dial_txt_margin">50px</dimen>
+    <dimen name="dial_txt_size">46sp</dimen>
+    <dimen name="dial_key_marginstart">10px</dimen>
+    <dimen name="line_heigth">1px</dimen>
+    <dimen name="call_line_margin">15px</dimen>
+    <dimen name="call_num_margin">20px</dimen>
+    <dimen name="btn_width">120px</dimen>
+    <dimen name="btn_height">65px</dimen>
+    <dimen name="dial_btn_width">148px</dimen>
+    <dimen name="dial_btn_height">144px</dimen>
+    <dimen name="del_width">148px</dimen>
+    <dimen name="del_height">234px</dimen>
+    <dimen name="del_margin_start">5px</dimen>
+    <dimen name="call_width">148px</dimen>
+    <dimen name="call_height">344px</dimen>
+    <dimen name="call_margintop">15px</dimen>
+    <dimen name="tip_textsize">28sp</dimen>
+    <dimen name="paired_devices_marginstart">20px</dimen>
+    <dimen name="mainbar_margintop">0dp</dimen>
+    <dimen name="screen_incoming_paddingbottom">180dp</dimen>
+    <dimen name="screen_incoming_answer_margintop">90dp</dimen>
+    <dimen name="screen_input_size">32sp</dimen>
+    <dimen name="screen_name_size">24sp</dimen>
+    <dimen name="screen_number_size">28sp</dimen>
+    <dimen name="screen_type_size">26sp</dimen>
+    <dimen name="screen_call_margintop">20dp</dimen>
+    <dimen name="record_number_width">180px</dimen>
+    <dimen name="record_name_width">160px</dimen>
+
+</resources>

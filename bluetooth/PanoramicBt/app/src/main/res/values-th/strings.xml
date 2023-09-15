@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">การเชื่อมต่อ Bluetooth สำเร็จ</string>
+    <string name="tv_dial_not_conn">ไม่ได้เชื่อมต่อ Bluetooth</string>
+    <string name="call_number_short_toast">เลขขาดเกิน!</string>
+    <string name="dialog_downing">กำลังดาวน์โหลด ...</string>
+    <string name="call_number_unknown">(ไม่ทราบ)</string>
+    <string name="tv_contact_blu_tip">ไม่ได้เชื่อมต่อบลูทู ธ โปรดเชื่อมต่อก่อน!</string>
+    <string name="tv_contact_null">ดาวน์โหลดรายชื่อติดต่อล้มเหลวโปรดดาวน์โหลดอีกครั้ง!</string>
+    <string name="tv_record_null">บันทึกการโทรว่างเปล่าโปรดดาวน์โหลดอีกครั้ง!</string>
+    <string name="tv_collection_null">รายการโปรดว่างเปล่า!</string>
+    <string name="contact_search">ค้นหารายชื่อ</string>
+    <string name="pair_device">อุปกรณ์ที่จับคู่</string>
+    <string name="search_device">ค้นพบอุปกรณ์</string>
+    <string name="bt_link_success">เชื่อมต่อ Bluetooth แล้ว</string>
+    <string name="bt_link_fail">การเชื่อมต่อ Bluetooth ล้มเหลว</string>
+    <string name="bt_unlink_success">บลูทู ธ ถูกตัดการเชื่อมต่อ</string>
+    <string name="bt_unlink_fail">การตัดการเชื่อมต่อบลูทู ธ ล้มเหลว</string>
+    <string name="bt_unpair_success">การจับคู่บลูทู ธ ถูกตัดการเชื่อมต่อ</string>
+    <string name="bt_unpair_fail">การตัดการเชื่อมต่อและการจับคู่บลูทู ธ ล้มเหลว</string>
+    <string name="menu_dial">โทร</string>
+    <string name="menu_contact">บุคคลที่ติดต่อ</string>
+    <string name="menu_history">บันทึกการโทร</string>
+    <string name="menu_fav">รายการโปรด</string>
+    <string name="menu_device">การเชื่อมต่ออุปกรณ์</string>
+    <string name="tips_device_unconnect">ไม่สามารถเชื่อมต่อกับบลูทู ธ โปรดตัดการเชื่อมต่อปัจจุบันก่อน</string>
+    <string name="tips_downloading_alert">คุณกำลังดาวน์โหลดรายชื่อหรือบันทึกการโทรการออกตอนนี้จะทำให้ข้อมูลสูญหายคุณต้องการดำเนินการต่อหรือไม่</string>
+    <string name="text_listening">การฟัง</string>
+    <string name="external_device_disable_bt">อุปกรณ์ต่อพ่วงเชื่อมต่ออยู่และฟังก์ชัน Bluetooth ถูกปิดใช้งาน</string>
+    <string name="settings_tv_btstate">สวิตช์บลูทูธ</string>
+    <string name="settings_tv_btname">ชื่อบลูทูธ</string>
+    <string name="settings_tv_btpin">รหัส PIN บลูทูธ</string>
+    <string name="settings_tv_edit_btname">แน่นอน</string>
+    <string name="settings_tv_editdialog_ok">แก้ไขรหัส PIN ของ Bluetooth</string>
+    <string name="settings_switch_on">เปิด</string>
+    <string name="settings_switch_off">ปิด</string>
+    <string name="status_connected">เชื่อมต่อแล้ว</string>
+    <string name="status_paired">จับคู่</string>
+    <string name="status_unpaired">Unpaired</string>
+    <string name="status_pairing">จับคู่</string>
+    <string name="status_connecting">กำลังเชื่อมต่อ</string>
+    <string name="settings_tv_edit_btpin">แก้ไขชื่อบลูทูธ</string>
+</resources>

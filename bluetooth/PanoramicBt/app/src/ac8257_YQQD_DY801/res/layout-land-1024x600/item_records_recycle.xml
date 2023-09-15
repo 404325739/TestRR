@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/records_rel"
+    android:layout_width="@dimen/item_contact_width"
+    android:layout_height="@dimen/item_record_height"
+    android:background="@drawable/item_recycle_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/item_contact_icon_width"
+        android:layout_height="@dimen/item_contact_icon_height"
+        android:background="@drawable/iv_contact_flavor"
+        android:layout_marginStart="@dimen/px30" />
+
+    <TextView
+        android:id="@+id/tv_records_name"
+        style="@style/txt_px26"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/px10"
+        android:layout_weight="2"
+        android:singleLine="true"
+        tools:text="小明" />
+
+    <TextView
+        android:id="@+id/tv_records_number"
+        style="@style/txt_px26"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/px60"
+        android:layout_toEndOf="@id/tv_contact_name"
+        android:layout_weight="3"
+        android:singleLine="true"
+        tools:text="134 4590 7820" />
+
+    <ImageView
+        android:id="@+id/record_type"
+        android:layout_width="@dimen/item_contact_icon_width"
+        android:layout_height="@dimen/item_contact_icon_height"
+        android:layout_marginStart="@dimen/px20"
+        android:layout_marginEnd="@dimen/px10"
+        android:src="@drawable/iv_contact_flavor" />
+
+    <TextView
+        android:id="@+id/tv_records_time"
+        style="@style/txt_px16"
+        android:layout_width="@dimen/record_number_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="start"
+        android:singleLine="true"
+        android:visibility="gone"
+        tools:text="7小时前" />
+</LinearLayout>

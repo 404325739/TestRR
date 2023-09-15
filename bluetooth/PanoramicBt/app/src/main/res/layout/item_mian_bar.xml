@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/main_layout_bar_width"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--拨号键盘-->
+    <RelativeLayout
+        android:id="@+id/tab_dial_manager"
+        style="@style/style_tab_rl">
+
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_dial_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_dial"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_dial" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--联系人-->
+    <RelativeLayout
+        android:id="@+id/tab_contact_manager"
+        style="@style/style_tab_rl">
+
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_contact_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_contact"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_contact" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--通话记录-->
+    <RelativeLayout
+        android:id="@+id/tab_records_manager"
+        style="@style/style_tab_rl">
+
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_records_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_records"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_history" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--蓝牙音乐-->
+    <RelativeLayout
+        android:id="@+id/tab_btmusic_manager"
+        style="@style/style_tab_rl"
+        android:visibility="gone">
+
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_btmusic_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_btmusic"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_btmusic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--设备链接-->
+    <RelativeLayout
+        android:id="@+id/tab_device_manager"
+        style="@style/style_tab_rl"
+        android:visibility="gone">
+
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_device_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_device"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_device" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--蓝牙设置-->
+    <RelativeLayout
+        android:id="@+id/tab_setting_manager"
+        style="@style/style_tab_rl"
+        android:visibility="gone">
+
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_settings_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_setting"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_setting" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--收藏-->
+    <RelativeLayout
+        android:id="@+id/tab_collection_manager"
+        style="@style/style_tab_rl"
+        android:visibility="gone">
+        <LinearLayout style="@style/style_tab_ll">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_collection_selector" />
+
+            <com.jancar.bluetooth.view.AutofitTextView
+                android:id="@+id/tab_tv_collection"
+                style="@style/style_tab_tv"
+                android:text="@string/menu_fav" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

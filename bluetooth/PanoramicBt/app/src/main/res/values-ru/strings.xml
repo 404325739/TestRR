@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Bluetooth-соединение успешно</string>
+    <string name="tv_dial_not_conn">Bluetooth не подключен</string>
+    <string name="call_number_short_toast">Номер слишком короткий!</string>
+    <string name="dialog_downing">загрузка ...</string>
+    <string name="call_number_unknown">(неизвестно)</string>
+    <string name="tv_contact_blu_tip">Bluetooth не подключен, сначала подключитесь!</string>
+    <string name="tv_contact_null">Не удалось загрузить контакт, загрузите снова!</string>
+    <string name="tv_record_null">Журнал звонков пуст, скачайте заново!</string>
+    <string name="tv_collection_null">Список фаворитов пуст!</string>
+    <string name="contact_search">Поиск контактов</string>
+    <string name="pair_device">Сопряженное устройство</string>
+    <string name="search_device">Обнаружить устройство</string>
+    <string name="bt_link_success">Bluetooth подключен</string>
+    <string name="bt_link_fail">Соединение Bluetooth не удалось</string>
+    <string name="bt_unlink_success">Bluetooth отключен</string>
+    <string name="bt_unlink_fail">Не удалось отключить Bluetooth</string>
+    <string name="bt_unpair_success">Сопряжение Bluetooth отключено</string>
+    <string name="bt_unpair_fail">Отключение Bluetooth и сопряжение не удалось</string>
+    <string name="menu_dial">Клавиатура</string>
+    <string name="menu_contact">Контакты</string>
+    <string name="menu_history">Звонки</string>
+    <string name="menu_fav">Избранное</string>
+    <string name="menu_device">Подключение устройства</string>
+    <string name="tips_device_unconnect">Не удается подключиться к Bluetooth, сначала отключите текущее соединение</string>
+    <string name="tips_downloading_alert">Вы загружаете контакты или записи звонков. Если выйти сейчас, данные будут потеряны. Продолжить?</string>
+    <string name="text_listening">Прослушивание</string>
+    <string name="external_device_disable_bt">Периферийное устройство подключено, и функция Bluetooth отключена.</string>
+    <string name="settings_tv_btstate">Переключатель Bluetooth</string>
+    <string name="settings_tv_btname">Имя Bluetooth</string>
+    <string name="settings_tv_btpin">PIN-код Bluetooth</string>
+    <string name="settings_tv_edit_btname">Изменить имя Bluetooth</string>
+    <string name="settings_tv_editdialog_ok">Конечно</string>
+    <string name="settings_switch_on">Вкл</string>
+    <string name="settings_switch_off">Выкл</string>
+    <string name="status_connected">Подключено</string>
+    <string name="status_paired">Сохранено</string>
+    <string name="status_unpaired">Не подключено</string>
+    <string name="status_pairing">Сопряжение</string>
+    <string name="status_connecting">соединение</string>
+    <string name="settings_tv_edit_btpin">Изменить PIN-код Bluetooth</string>
+</resources>

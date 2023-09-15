@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 半屏去电的高度 -->
+    <integer name="half_screen_height">142</integer>
+    <!--0:Top; 1:Left; 2:Right; 3:Bottom;-->
+    <integer-array name="array_call_window_gravity">
+        <item>3</item>
+        <item>1</item>
+    </integer-array>
+    <bool name="gravity_half_screen_talking">true</bool>
+
+    <integer name="mian_bar_width">206</integer>
+    <integer name="framelayout_width">818</integer>
+    <integer name="item_dial_number_width">64</integer>
+    <integer name="item_dial_del_width">18</integer>
+    <integer name="dialer_fillview_width">5</integer>
+    <integer name="dialer_fillview_height">0</integer>
+</resources>

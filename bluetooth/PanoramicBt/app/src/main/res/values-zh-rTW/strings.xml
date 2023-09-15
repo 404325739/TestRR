@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">藍牙連接成功</string>
+    <string name="tv_dial_not_conn">藍牙未連接</string>
+    <string name="call_number_short_toast">號碼太短！</string>
+    <string name="dialog_downing">正在下載...</string>
+    <string name="call_number_unknown">(未知)</string>
+    <string name="tv_contact_blu_tip">藍牙未連接,請先連接!</string>
+    <string name="tv_contact_null">聯繫人下載失敗，請重新下載 !</string>
+    <string name="tv_record_null">通話記錄為空 ,請重新下載!</string>
+    <string name="tv_collection_null">收藏列表為空!</string>
+    <string name="contact_search">搜索聯繫人</string>
+    <string name="pair_device">配對設備</string>
+    <string name="search_device">發現設備</string>
+    <string name="bt_link_success">藍牙已連接</string>
+    <string name="bt_link_fail">藍牙連接失敗</string>
+    <string name="bt_unlink_success">藍牙已斷開</string>
+    <string name="bt_unlink_fail">藍牙斷開失敗</string>
+    <string name="bt_unpair_success">藍牙配對已斷開</string>
+    <string name="bt_unpair_fail">藍牙斷開配對失敗</string>
+    <string name="menu_dial">撥號</string>
+    <string name="menu_contact">聯繫人</string>
+    <string name="menu_history">通話記錄</string>
+    <string name="menu_fav">收藏</string>
+    <string name="menu_device">設備連接</string>
+    <string name="tips_device_unconnect">無法連接到藍牙，請先斷開當前連接</string>
+    <string name="tips_downloading_alert">正在下載聯繫人或通話記錄，現在退出將會導致數據缺失，是否繼續?</string>
+    <string name="text_listening">傾聽中</string>
+    <string name="external_device_disable_bt">外設已連接，藍牙功能已禁用。</string>
+    <string name="settings_tv_btstate">藍牙開關</string>
+    <string name="settings_tv_btname">藍牙名稱</string>
+    <string name="settings_tv_btpin">藍牙PIN碼</string>
+    <string name="settings_tv_edit_btpin">修改藍牙PIN碼</string>
+    <string name="settings_tv_edit_btname">修改藍牙名稱</string>
+    <string name="settings_tv_editdialog_ok">確定</string>
+    <string name="settings_switch_on">開</string>
+    <string name="settings_switch_off">關</string>
+    <string name="status_connected">已連接</string>
+    <string name="status_paired">已配對</string>
+    <string name="status_unpaired">未配對</string>
+    <string name="status_pairing">配對中</string>
+    <string name="status_connecting">連接中</string>
+</resources>

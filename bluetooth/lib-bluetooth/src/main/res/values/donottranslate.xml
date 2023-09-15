@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 以下定义的包名，切换到这些应用，通话界面会变成半屏 -->
+    <string-array name="naviWithFilterList">
+        <item>com.autonavi</item> <!-- 高德 -->
+        <item>com.mxnavi</item> <!-- 美行 -->
+        <item>title.navi</item> <!-- 道道通 -->
+        <item>cld.navi</item> <!-- 凯立德 -->
+        <item>com.baidu.navi</item> <!-- 百度导航 -->
+        <item>com.navngo.igo</item> <!-- igo导航 -->
+        <item>com.nng.igo.primong</item> <!-- igo导航 -->
+        <item>com.galactio.obu</item>
+        <item>com.waze</item> <!-- waze地图 -->
+        <item>com.google.android.apps.maps</item> <!-- google Map -->
+        <item>com.autochips.camera</item> <!-- 倒车 -->
+        <item>com.tencent.wecarnavi</item> <!-- 腾讯地图 -->
+        <item>com.roadrover.carassistant</item> <!-- 自动泊车 -->
+        <item>com.roadrover.avm.t3plus</item> <!-- 360全景 -->
+        <item>com.jancar.carcameras</item> <!-- 倒车 -->
+        <item>com.jancar.webcam</item> <!-- 360全景 -->
+        <item>com.autochips.avmplayer</item> <!--  -->
+        <item>com.jancar.avin</item> <!--  -->
+        <item>com.jancar.front</item> <!--  -->
+    </string-array>
+
+</resources>

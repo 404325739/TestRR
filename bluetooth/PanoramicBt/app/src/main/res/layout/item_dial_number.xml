@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0px"
+    android:layout_weight="@integer/item_dial_number_width"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:layout_marginStart="@dimen/dial_key_marginstart"-->
+
+    <LinearLayout
+        style="@style/style_dial_ll">
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_1"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_1_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_2"
+            style="@style/style_dial_iv2"
+            android:background="@drawable/iv_num_2_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_3"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_3_selector" />
+    </LinearLayout>
+
+    <View style="@style/style_view_dial_ll_fill"/>
+
+    <LinearLayout
+        style="@style/style_dial_ll">
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_4"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_4_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_5"
+            style="@style/style_dial_iv2"
+            android:background="@drawable/iv_num_5_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_6"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_6_selector" />
+    </LinearLayout>
+
+    <View style="@style/style_view_dial_ll_fill"/>
+
+    <LinearLayout
+        style="@style/style_dial_ll">
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_7"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_7_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_8"
+            style="@style/style_dial_iv2"
+            android:background="@drawable/iv_num_8_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_9"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_9_selector" />
+    </LinearLayout>
+
+    <View style="@style/style_view_dial_ll_fill"/>
+
+    <LinearLayout
+        style="@style/style_dial_ll">
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_star"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_star_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_0"
+            style="@style/style_dial_iv2"
+            android:background="@drawable/iv_num_0_selector" />
+
+        <View style="@style/style_view_dial_fill"/>
+
+        <ImageView
+            android:id="@+id/dial_num_10"
+            style="@style/style_dial_iv1"
+            android:background="@drawable/iv_num_10_selector" />
+    </LinearLayout>
+
+    <View style="@style/style_view_dial_ll_fill"/>
+</LinearLayout>

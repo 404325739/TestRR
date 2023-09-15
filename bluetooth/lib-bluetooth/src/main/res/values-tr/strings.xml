@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth</string>
+    <string name="hello_world">Merhaba</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <!-- hd name -->
+    <string name="hd_keyboard_name">Klavye</string>
+    <string name="hd_contact_name">Kişiler</string>
+    <string name="hd_history_name">Tarih</string>
+    <string name="hd_devices_name">Cihazlar</string>
+    <string name="hd_a2dp_name">BT Müzik</string>
+    <string name="hd_setting_name">Ayarlar</string>
+
+    <!-- device page -->
+    <string name="dv_sousuo">Aramak</string>
+    <string name="dv_connect">Bluetooth bağlantısı</string>
+    <string name="dv_disconnect">Bağlantıyı kes</string>
+    <string name="dv_delete">Sil</string>
+    <string name="dv_unpair">Eşleşmeyi Kaldır</string>
+    <string name="dv_cnt">Bağlan</string>
+    <string name="dv_pair">Çift</string>
+    <string name="dv_paired">\" Eşleşmiş cihazlar\"</string>
+    <string name="dv_new_device">\"Yeni cihazlar\"</string>
+    <string name="dv_request_pair">Eşleştirme isteğinde bulunun: Lütfen cihazın kullanılabilir olduğundan emin olun</string>
+    <string name="dv_pairing_device">Aşağıdaki cihazlarla eşleştirme:</string>
+    <string name="dv_pin_code">Lütfen girilen PIN kodunun:</string>
+
+    <!-- sett -->
+    <string name="st_devicename">Cihaz adı:</string>
+    <string name="st_pin">Toplu iğne:</string>
+    <string name="st_autolisten">Otomatik cevap</string>
+    <string name="st_autolink">Otomatik bağlantı</string>
+    <string name="st_modify">Değiştir</string>
+
+    <!-- contact -->
+    <string name="ct_search">Arama</string>
+    <string name="ct_dataformat">Toplam %d Kişi</string>
+
+    <!-- record -->
+    <string name="record_all">Tüm aramalar</string>
+    <string name="record_refused">Cevapsız çağrı</string>
+    <string name="record_synch">" Güncelleme"</string>
+    <string name="download_wait_history_tip">Çağrı geçmişi şimdi indiriliyor, lütfen bekleyin ...</string>
+    <string name="download_wait_phonebook_tip">Telefon rehberi şimdi indiriliyor, lütfen bekleyin ...</string>
+    <string name="phonebook_unknow_name">Bilinmeyen</string>
+    <string name="download_invild">Desteksiz</string>
+    <string name="call_out">Çağrı Çevirme</string>
+    <string name="call_in">Gelen çağrı</string>
+    <string name="call_ing">Aranıyor</string>
+    <string name="call_number_wz">Bilinmeyen</string>
+    <string name="open_device_first">Bluetooth\'u aç</string>
+    <string name="connect_device_first">lütfen cihazı bağlayın</string>
+
+    <string name="record_called">Aranan Çağrı</string>
+    <string name="record_listened">Gelen çağrı</string>
+    <string name="remove_device_toast">Lütfen bağlantıyı kes</string>
+    <string name="contacts_time_title">Son senkronizasyon zamanı:</string>
+    <string name="number_len_max">Girdiğiniz sayı uzunluğu aşıyor!</string>
+    <string name="sync_time_out">Kişileri eşitleme zaman aşımı!</string>
+    <string name="connecting">Bağlanıyor!</string>
+    <string name="connect_fail">Bağlantı başarısız oldu, lütfen telefonun bluetooth\'un açık olup olmadığını kontrol edin.</string>
+    <string name="pin_less_error">Pin kodu 4\'ten az olamaz.</string>
+    <string name="connect_time_out">Bağlantı zaman aşımına uğradı, lütfen daha sonra tekrar deneyin!</string>
+
+    <string-array name="titles">
+        <item>Favori</item>
+        <item>Geçmiş</item>
+        <item>Kişiler</item>
+        <item>Klavye</item>
+    </string-array>
+
+    <string name="call_to">Seslenmek</string>
+    <string name="number_error">Numara yanlış!</string>
+    <string name="touch_to_call">Aramaya dönmek için dokunun</string>
+    <string name="reserved">Ayrılmış</string>
+    <string name="answer">Cevap</string>
+    <string name="hangup">Telefonu kapatmak</string>
+    <string name="hangup_three">Telefonu kapatmak</string>
+    <string name="mute">Sessiz</string>
+    <string name="navigation">Navigasyon</string>
+    <string name="hangup_and_answer">Telefonu kapat/cevapla</string>
+    <string name="keep_and_answer">Tut/cevapla</string>
+    <string name="phone">Telefon</string>
+    <string name="replace">Değiştirmek</string>
+    <string name="merge">Birleştirmek</string>
+
+</resources>

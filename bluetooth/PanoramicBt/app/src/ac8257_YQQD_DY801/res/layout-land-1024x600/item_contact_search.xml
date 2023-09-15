@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/px20"
+    android:background="@drawable/item_recycle_selector">
+
+    <RelativeLayout
+        android:id="@+id/contact_frame_search"
+        android:layout_width="@dimen/item_contact_width"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/ed_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:focusedByDefault="false"
+            android:hint="@string/contact_search"
+            android:maxWidth="@dimen/item_contact_width"
+            android:paddingStart="@dimen/px20"
+            android:paddingEnd="@dimen/px20"
+            android:paddingBottom="@dimen/px20"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray_circle_color"
+            android:textCursorDrawable="@color/edittext_cursordrawable_color"
+            android:textSize="18sp"
+            android:background="@null"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ed_contact"
+            android:layout_alignStart="@id/ed_contact"
+            android:background="@drawable/iv_contact_list_div" />
+
+        <ImageView
+            android:id="@+id/iv_contact_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20px"
+            android:background="@drawable/iv_contact_search_selector"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/px100"
+        android:background="@drawable/iv_contact_list_div"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+</RelativeLayout>

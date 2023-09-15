@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bluetooth-telefoon</string>
+    <string name="hello_world">Hallo</string>
+    <string name="action_settings">opgericht</string>
+    <string name="hd_keyboard_name">toetsenbord</string>
+    <string name="hd_contact_name">Contactpersoon</string>
+    <string name="hd_history_name">oproeprecords</string>
+    <string name="hd_devices_name">apparatuur</string>
+    <string name="hd_a2dp_name">Bluetooth-muziek</string>
+    <string name="hd_setting_name">opgericht</string>
+    <string name="dv_sousuo">zoeken</string>
+    <string name="dv_connect">Loskoppelen</string>
+    <string name="dv_disconnect">Sluit het apparaat aan</string>
+    <string name="dv_delete">Negeer apparaat</string>
+    <string name="dv_unpair">Ontkoppelen</string>
+    <string name="dv_cnt">aansluiten</string>
+    <string name="dv_pair">paar-</string>
+    <string name="dv_paired">\"Gekoppeld apparaat\"</string>
+    <string name="dv_new_device">\" nieuw apparaat\"</string>
+    <string name="dv_request_pair">Bluetooth-koppelingsverzoek: bevestig dat de Bluetooth-communicatie van het gekoppelde apparaat normaal is</string>
+    <string name="dv_pairing_device">Koppelen met de volgende apparaten:</string>
+    <string name="dv_pin_code">Zorg ervoor dat de ingevoerde pincode:</string>
+    <string name="st_devicename">Toestelnaam:</string>
+    <string name="st_pin">Koppelingswachtwoord:</string>
+    <string name="st_autolisten">Automatisch antwoord</string>
+    <string name="st_autolink">automatisch verbinden</string>
+    <string name="st_modify">Herzien</string>
+    <string name="ct_search">Vind</string>
+    <string name="ct_dataformat">\"Totaal %d contacten\"</string>
+    <string name="record_all">Bel alles</string>
+    <string name="record_refused">Gemiste oproep</string>
+    <string name="record_synch">" Synchroniseren"</string>
+    <string name="download_wait_history_tip">Oproeplog downloaden, een ogenblik geduld...</string>
+    <string name="download_wait_phonebook_tip">Contacten downloaden, een ogenblik geduld...</string>
+    <string name="phonebook_unknow_name">onbekend</string>
+    <string name="download_invild">De telefoon ondersteunt deze bewerking niet</string>
+    <string name="call_out">Uitademen</string>
+    <string name="call_in">Binnenkomend telefoongesprek</string>
+    <string name="call_ing">roeping</string>
+    <string name="call_number_wz">onbekend</string>
+    <string name="open_device_first">Bluetooth inschakelen</string>
+    <string name="connect_device_first">Sluit het apparaat eerst aan</string>
+    <string name="record_called">Uitgaande oproep</string>
+    <string name="record_listened">Ontvangen oproep</string>
+    <string name="remove_device_toast">Gelieve eerst de verbinding te verbreken</string>
+    <string name="contacts_time_title">Laatste synchronisatietijd:</string>
+    <string name="number_len_max">Het nummer dat je hebt ingevoerd overschrijdt de lengte</string>
+    <string name="sync_time_out">Er is een time-out opgetreden bij het synchroniseren van contacten</string>
+    <string name="connecting">Verbinden, even geduld a.u.b.!</string>
+    <string name="connect_fail">Verbinding mislukt, controleer of Bluetooth op de telefoon is ingeschakeld.</string>
+    <string name="pin_less_error">Pincode mag niet minder zijn dan 4 cijfers</string>
+    <string name="connect_time_out">Er is een time-out opgetreden bij de verbinding, probeer het later opnieuw!</string>
+    <string-array name="titles">
+        <item>verzamelen</item>
+        <item>oproeprecords</item>
+        <item>Contactpersoon</item>
+        <item>toetsenbord</item>
+    </string-array>
+    <string name="call_to">Kies</string>
+    <string name="number_error">Het nummer klopt niet.</string>
+    <string name="touch_to_call">Tik om terug te keren naar de oproepinterface</string>
+    <string name="reserved">Reserveren</string>
+    <string name="answer">Antwoord geven</string>
+    <string name="hangup">ophangen</string>
+    <string name="hangup_three">ophangen</string>
+    <string name="mute">Stom</string>
+    <string name="navigation">navigatie</string>
+    <string name="hangup_and_answer">Hang op/antwoord</string>
+    <string name="keep_and_answer">Vasthouden/beantwoorden</string>
+    <string name="phone">mobiele telefoon</string>
+    <string name="replace">aandelenbeurs</string>
+    <string name="merge">samenvoegen</string>
+
+</resources>

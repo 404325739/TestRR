@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--俄语名称客户确认用英文的-->
+    <string name="app_name">Bluetooth</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+
+    <!-- hd name -->
+    <string name="hd_keyboard_name">Клавиатура</string>
+    <string name="hd_contact_name">Контакты</string>
+    <string name="hd_history_name">История</string>
+    <string name="hd_devices_name">Устройства</string>
+    <string name="hd_a2dp_name">BT Музыка</string>
+    <string name="hd_setting_name">Настройки</string>
+
+    <!-- device page -->
+    <string name="dv_sousuo">Стремиться</string>
+    <string name="dv_disconnect">Отключить</string>
+    <string name="dv_connect">Соединение Bluetooth</string>
+    <string name="dv_delete">удалять</string>
+    <string name="dv_unpair">Разорвать пару</string>
+    <string name="dv_cnt">Подключить</string>
+    <string name="dv_pair">Пара</string>
+    <string name="dv_paired">«Сопряженные устройства»</string>
+    <string name="dv_new_device">«Новые устройства»</string>
+    <string name="dv_request_pair">Запрос на сопряжение: убедитесь, что устройство доступно</string>
+    <string name="dv_pairing_device">Сопряжение со следующими устройствами:</string>
+    <string name="dv_pin_code">Убедитесь, что введенный PIN-код:</string>
+
+    <!-- sett -->
+    <string name="st_devicename">Имя устройства:</string>
+    <string name="st_pin">Штырь:</string>
+    <string name="st_autolisten">Автоответ</string>
+    <string name="st_autolink">Автоматическое подключение</string>
+    <string name="st_modify">Изменить</string>
+
+    <!-- contact -->
+    <string name="ct_search">Поиск</string>
+    <string name="ct_dataformat">Всего %d контактов</string>
+
+    <!-- record -->
+    <string name="record_all">Все звонки</string>
+    <string name="record_refused">Пропущенный звонок</string>
+    <string name="record_synch">" Обновить"</string>
+    <string name="download_wait_history_tip">Загрузка истории звонков, подождите ...</string>
+    <string name="download_wait_phonebook_tip">Загрузка телефонной книги, подождите ...</string>
+    <string name="phonebook_unknow_name">Неизвестно</string>
+    <string name="download_invild">Без поддержки</string>
+    <string name="call_out">Набор номера</string>
+    <string name="call_in">Входящий звонок</string>
+    <string name="call_ing">Вызов</string>
+    <string name="call_number_wz">Неизвестно</string>
+    <string name="open_device_first">Откройте Bluetooth</string>
+    <string name="connect_device_first">пожалуйста, подключите устройство</string>
+
+    <string name="record_called">Набранный вызов</string>
+    <string name="record_listened">Принятый звонок</string>
+    <string name="remove_device_toast">Пожалуйста, отключите</string>
+    <string name="contacts_time_title">Время последней синхронизации:</string>
+    <string name="number_len_max">Введенное вами число превышает длину!</string>
+
+    <string name="sync_time_out">Таймаут синхронизации контактов!</string>
+    <string name="connecting">подключение!</string>
+    <string name="connect_fail">Ошибка подключения, проверьте, включен ли в телефоне Bluetooth.</string>
+    <string name="pin_less_error">Пин-код не может быть меньше 4.</string>
+    <string name="connect_time_out">Время ожидания подключения истекло, повторите попытку позже!</string>
+
+    <string-array name="titles">
+        <item>Любимые</item>
+        <item>История</item>
+        <item>Контакты</item>
+        <item>Клавиатура</item>
+    </string-array>
+
+    <string name="call_to">Позвонить</string>
+    <string name="number_error">Номер неправильный!</string>
+    <string name="touch_to_call">Нажмите, чтобы вернуться к звонку</string>
+    <string name="reserved">Зарезервированный</string>
+    <string name="answer">Ответ</string>
+    <string name="hangup">Повесить трубку</string>
+    <string name="hangup_three">Повесить трубку</string>
+    <string name="mute">Без звука</string>
+    <string name="navigation">Навигация</string>
+    <string name="hangup_and_answer">Положить трубку/ответить</string>
+    <string name="keep_and_answer">Оставить/ответить</string>
+    <string name="phone">Телефон</string>
+    <string name="replace">Переключатель</string>
+    <string name="merge">Объединить</string>
+
+</resources>

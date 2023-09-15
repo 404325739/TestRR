@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/px50"
+    android:paddingTop="@dimen/px50"
+    android:paddingEnd="@dimen/px50">
+
+    <View style="@style/style_settings_div" />
+
+    <RelativeLayout style="@style/style_settings_ll">
+
+        <TextView
+            style="@style/style_settings_tv"
+            android:text="@string/settings_tv_btstate" />
+
+        <Switch
+            android:id="@+id/switch_settings_btswitch"
+            style="@style/style_settings_switch"/>
+
+    </RelativeLayout>
+
+    <View style="@style/style_settings_div" />
+
+    <RelativeLayout style="@style/style_settings_ll">
+
+        <TextView
+            style="@style/style_settings_tv"
+            android:text="@string/settings_tv_autolink" />
+
+        <Switch
+            android:id="@+id/switch_settings_autoconnect"
+            style="@style/style_settings_switch" />
+
+    </RelativeLayout>
+
+    <View style="@style/style_settings_div" />
+
+    <RelativeLayout style="@style/style_settings_ll">
+
+        <TextView
+            style="@style/style_settings_tv"
+            android:text="@string/settings_tv_autoanswer" />
+
+        <Switch
+            android:id="@+id/switch_settings_autoanswer"
+            style="@style/style_settings_switch" />
+
+    </RelativeLayout>
+
+    <View style="@style/style_settings_div" />
+
+    <RelativeLayout style="@style/style_settings_ll">
+
+        <TextView
+            style="@style/style_settings_tv"
+            android:text="@string/settings_tv_btname" />
+
+        <Button
+            android:id="@+id/btn_settings_name"
+            style="@style/style_settings_btn"
+            android:text="解放" />
+
+    </RelativeLayout>
+
+    <View style="@style/style_settings_div" />
+
+    <RelativeLayout style="@style/style_settings_ll">
+
+        <TextView
+            style="@style/style_settings_tv"
+            android:text="@string/settings_tv_btpin" />
+
+        <Button
+            android:id="@+id/btn_settings_pin"
+            style="@style/style_settings_btn"
+            android:text="1234" />
+
+    </RelativeLayout>
+
+    <View style="@style/style_settings_div" />
+
+</LinearLayout>

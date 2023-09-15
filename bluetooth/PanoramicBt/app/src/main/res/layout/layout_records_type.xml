@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/iv_record_type_out"
+        style="@style/style_record_type_iv"
+        android:background="@drawable/iv_record_out_selector" />
+
+    <ImageView
+        android:id="@+id/iv_record_type_in"
+        style="@style/style_record_type_iv"
+        android:background="@drawable/iv_record_in_selector" />
+
+    <ImageView
+        android:id="@+id/iv_record_type_miss"
+        style="@style/style_record_type_iv"
+        android:background="@drawable/iv_record_miss_selector" />
+</LinearLayout>

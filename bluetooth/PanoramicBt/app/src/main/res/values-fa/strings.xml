@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">اتصال بلوتوث موفقیت آمیز است</string>
+    <string name="tv_dial_not_conn">بلوتوث متصل نیست</string>
+    <string name="call_number_short_toast">تعداد خیلی کوتاه است!</string>
+    <string name="dialog_downing">در حال بارگیری ...</string>
+    <string name="call_number_unknown">(ناشناس)</string>
+    <string name="tv_contact_blu_tip">بلوتوث متصل نیست ، لطفاً ابتدا متصل شوید!</string>
+    <string name="tv_contact_null">تماس با بارگیری ناموفق بود ، لطفاً دوباره بارگیری کنید</string>
+    <string name="tv_record_null">گزارش تماس خالی است ، لطفاً دوباره بارگیری کنید!</string>
+    <string name="tv_collection_null">لیست مورد علاقه خالی است!</string>
+    <string name="contact_search">مخاطبین را جستجو کنید</string>
+    <string name="pair_device">دستگاه جفت شده</string>
+    <string name="search_device">دستگاه را کشف کنید</string>
+    <string name="bt_link_success">بلوتوث متصل است</string>
+    <string name="bt_link_fail">اتصال بلوتوث انجام نشد</string>
+    <string name="bt_unlink_success">اتصال بلوتوث قطع شده است</string>
+    <string name="bt_unlink_fail">قطع اتصال بلوتوث انجام نشد</string>
+    <string name="bt_unpair_success">جفت شدن بلوتوث قطع شده است</string>
+    <string name="bt_unpair_fail">قطع و جفت شدن بلوتوث انجام نشد</string>
+    <string name="menu_dial">شماره گیری</string>
+    <string name="menu_contact">تماس با شخص</string>
+    <string name="menu_history">سوابق تماس</string>
+    <string name="menu_fav">موارد دلخواه</string>
+    <string name="menu_device">اتصال دستگاه</string>
+    <string name="tips_device_unconnect">اتصال به بلوتوث امکان پذیر نیست ، لطفاً ابتدا اتصال فعلی را قطع کنید</string>
+    <string name="tips_downloading_alert">شما در حال بارگیری مخاطبین یا سوابق تماس هستید. اکنون با خروج از دست می رود داده. آیا می خواهید ادامه دهید؟</string>
+    <string name="text_listening">استماع</string>
+    <string name="external_device_disable_bt">دستگاه جانبی متصل است و عملکرد بلوتوث غیرفعال است.</string>
+    <string name="settings_tv_btstate">سوئیچ بلوتوث</string>
+    <string name="settings_tv_btname">نام بلوتوث</string>
+    <string name="settings_tv_btpin">کد پین بلوتوث</string>
+    <string name="settings_tv_edit_btpin">کد پین بلوتوث را تغییر دهید</string>
+    <string name="settings_tv_edit_btname">نام بلوتوث را تغییر دهید</string>
+    <string name="settings_tv_editdialog_ok">مطمئن</string>
+    <string name="settings_switch_on">باز کن</string>
+    <string name="settings_switch_off">بسته</string>
+    <string name="status_connected">متصل</string>
+    <string name="status_paired">جفت شده</string>
+    <string name="status_unpaired">جفت نشده</string>
+    <string name="status_pairing">جفت شدن</string>
+    <string name="status_connecting">برقراری ارتباط</string>
+</resources>

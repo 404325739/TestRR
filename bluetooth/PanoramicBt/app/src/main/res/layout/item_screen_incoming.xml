@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/call_phone_incoming"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/ll_screen_incoming_text"
+        layout="@layout/item_screen_call_text" />
+
+    <!--全屏状态来电界面-->
+    <LinearLayout
+        android:id="@+id/ll_screen_incoming_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/screen_incoming_answer_margintop"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_incoming_hangup"
+            android:layout_width="@dimen/callwindow_screen_btn_width"
+            android:layout_height="@dimen/callwindow_screen_btn_height"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/iv_call_hangup_selector" />
+
+        <ImageView
+            android:id="@+id/iv_incoming_answer"
+            android:layout_width="@dimen/callwindow_screen_btn_width"
+            android:layout_height="@dimen/callwindow_screen_btn_height"
+            android:background="@drawable/iv_call_answer_selector" />
+    </LinearLayout>
+
+    <!--全屏界面 第三方来电-->
+    <LinearLayout
+        android:id="@+id/ll_three_screen_incoming_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_three_incoming_hangup"
+            android:layout_width="84dp"
+            android:layout_height="52dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/iv_call_hangup_selector" />
+
+        <ImageView
+            android:id="@+id/iv_three_incoming_answer"
+            android:layout_width="84dp"
+            android:layout_height="52dp"
+            android:background="@drawable/iv_call_answer_selector" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Conexiunea Bluetooth este reușită</string>
+    <string name="tv_dial_not_conn">Bluetooth nu este conectat</string>
+    <string name="call_number_short_toast">Numărul este prea scurt!</string>
+    <string name="dialog_downing">Descărcarea...</string>
+    <string name="call_number_unknown">(necunoscut)</string>
+    <string name="tv_contact_blu_tip">Bluetooth nu este conectat, vă rugăm să vă conectați mai întâi!</string>
+    <string name="tv_contact_null">Descărcarea contactului a eșuat, vă rugăm să descărcați din nou!</string>
+    <string name="tv_record_null">Jurnalul de apeluri este gol, vă rugăm să descărcați din nou!</string>
+    <string name="tv_collection_null">Lista preferatelor este goală!</string>
+    <string name="contact_search">Căutați contacte</string>
+    <string name="pair_device">Dispozitiv asociat</string>
+    <string name="search_device">Descoperiți dispozitivul</string>
+    <string name="bt_link_success">Bluetooth este conectat</string>
+    <string name="bt_link_fail">Conexiunea Bluetooth a eșuat</string>
+    <string name="bt_unlink_success">Bluetooth este deconectat</string>
+    <string name="bt_unlink_fail">Deconectarea Bluetooth a eșuat</string>
+    <string name="bt_unpair_success">Asocierea Bluetooth este deconectată</string>
+    <string name="bt_unpair_fail">Deconectarea și asocierea Bluetooth nu au reușit</string>
+    <string name="menu_dial">formează</string>
+    <string name="menu_contact">Persoană de contact</string>
+    <string name="menu_history">înregistrări apeluri</string>
+    <string name="menu_fav">Favorite</string>
+    <string name="menu_device">Conexiune dispozitiv</string>
+    <string name="tips_device_unconnect">Nu se poate conecta la Bluetooth, vă rugăm să deconectați mai întâi conexiunea curentă</string>
+    <string name="tips_downloading_alert">Descărcați contacte sau jurnale de apeluri. Ieșirea acum va duce la pierderea datelor. Doriți să continuați?</string>
+    <string name="text_listening">Ascultare</string>
+    <string name="external_device_disable_bt">Perifericul este conectat și funcția Bluetooth este dezactivată.</string>
+    <string name="settings_tv_btstate">Comutator Bluetooth</string>
+    <string name="settings_tv_btname">Nume Bluetooth</string>
+    <string name="settings_tv_btpin">Cod PIN Bluetooth</string>
+    <string name="settings_tv_edit_btname">Modificați numele Bluetooth</string>
+    <string name="settings_tv_editdialog_ok">Sigur</string>
+    <string name="settings_switch_on">deschis</string>
+    <string name="settings_switch_off">închide</string>
+    <string name="status_connected">Conectat</string>
+    <string name="status_paired">Împerecheate</string>
+    <string name="status_unpaired">Nepereche</string>
+    <string name="status_pairing">Împerechere</string>
+    <string name="status_connecting">conectarea</string>
+    <string name="settings_tv_edit_btpin">Modificați codul PIN Bluetooth</string>
+</resources>

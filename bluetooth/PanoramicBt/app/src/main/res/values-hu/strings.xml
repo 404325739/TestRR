@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">A Bluetooth-kapcsolat sikeres</string>
+    <string name="tv_dial_not_conn">A Bluetooth nincs csatlakoztatva</string>
+    <string name="call_number_short_toast">A szám túl rövid!</string>
+    <string name="dialog_downing">letöltés ...</string>
+    <string name="call_number_unknown">(ismeretlen)</string>
+    <string name="tv_contact_blu_tip">A Bluetooth nincs csatlakoztatva, kérjük, először csatlakozzon!</string>
+    <string name="tv_contact_null">A kapcsolattartó letöltése nem sikerült, kérjük, töltse le újra!</string>
+    <string name="tv_record_null">A hívásnapló üres, kérjük, töltse le újra!</string>
+    <string name="tv_collection_null">A kedvencek listája üres!</string>
+    <string name="contact_search">Névjegyek keresése</string>
+    <string name="pair_device">Párosított eszköz</string>
+    <string name="search_device">Fedezze fel az eszközt</string>
+    <string name="bt_link_success">Bluetooth csatlakozik</string>
+    <string name="bt_link_fail">Nem sikerült a Bluetooth-kapcsolat</string>
+    <string name="bt_unlink_success">A Bluetooth nincs csatlakoztatva</string>
+    <string name="bt_unlink_fail">Nem sikerült a Bluetooth-kapcsolat bontása</string>
+    <string name="bt_unpair_success">A Bluetooth párosítás megszakadt</string>
+    <string name="bt_unpair_fail">Nem sikerült a Bluetooth-kapcsolat bontása és a párosítás</string>
+    <string name="menu_dial">tárcsa</string>
+    <string name="menu_contact">Kapcsolattartó</string>
+    <string name="menu_history">hívásrekordok</string>
+    <string name="menu_fav">Kedvencek</string>
+    <string name="menu_device">Eszközkapcsolat</string>
+    <string name="tips_device_unconnect">Nem lehet csatlakozni a Bluetooth-hoz, előbb válassza le az aktuális kapcsolatot</string>
+    <string name="tips_downloading_alert">Névjegyeket vagy hívásrekordokat tölt le. A most történő kilépés adatvesztést eredményez. Folytatja?</string>
+    <string name="text_listening">Hallgatás</string>
+    <string name="external_device_disable_bt">A periféria csatlakoztatva van, és a Bluetooth funkció le van tiltva.</string>
+    <string name="settings_tv_btstate">Bluetooth kapcsoló</string>
+    <string name="settings_tv_btname">Bluetooth név</string>
+    <string name="settings_tv_btpin">Bluetooth PIN kód</string>
+    <string name="settings_tv_edit_btpin">Módosítsa a Bluetooth PIN kódot</string>
+    <string name="settings_tv_edit_btname">Módosítsa a Bluetooth nevet</string>
+    <string name="settings_tv_editdialog_ok">biztos</string>
+    <string name="settings_switch_on">nyisd ki</string>
+    <string name="settings_switch_off">bezárva</string>
+    <string name="status_connected">csatlakoztatva</string>
+    <string name="status_paired">Párosítva</string>
+    <string name="status_unpaired">Párosítatlan</string>
+    <string name="status_pairing">Párosítás</string>
+    <string name="status_connecting">összekötő</string>
+</resources>

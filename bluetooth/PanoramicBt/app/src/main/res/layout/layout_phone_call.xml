@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/iv_main_bg">
+
+	<FrameLayout
+		android:id="@+id/fl_screen_page"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<!--全话屏通中和去电-->
+		<include
+			android:id="@+id/ll_screen_taking"
+			layout="@layout/item_screen_taking" />
+
+		<!--来电时的界面-->
+		<include
+			layout="@layout/item_screen_incoming"
+			android:visibility="gone" />
+
+	</FrameLayout>
+
+	<LinearLayout
+		android:id="@+id/ll_half_screen_talking"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_alignParentBottom="@bool/gravity_half_screen_talking"
+		android:visibility="gone">
+
+		<include layout="@layout/item_half_screen" />
+
+	</LinearLayout>
+
+
+</RelativeLayout>

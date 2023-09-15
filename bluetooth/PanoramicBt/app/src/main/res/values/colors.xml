@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="main_txt_color">#4f5455</color>
+    <color name="white">#fff</color>
+    <!--拨号界面连接文字颜色-->
+    <color name="tv_dial_conn">#878484</color>
+    <!--通话记录界面名称以及地址，时间颜色-->
+    <color name="tv_record_name">#949494</color>
+    <!--通话记录界面挂断颜色-->
+    <color name="tv_record_miss">#d95c5f</color>
+    <color name="tv_record_incoming">#8BC34A</color>
+    <!--线的颜色-->
+    <color name="divider">#4f5455</color>
+    <color name="item_recycle_bg">#000</color>
+    <color name="contact_search_bg">#343134</color>
+    <color name="edittext_cursordrawable_color">#63666A</color>
+<!--    <color name="device_linked_color">#911413</color>-->
+    <color name="device_linked_color">#e72e2f</color>
+    <color name="progress_start_color">#911413</color>
+</resources>

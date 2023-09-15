@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0px"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+    <!--android:layout_marginStart="@dimen/dial_key_marginstart"
+    android:layout_marginEnd="@dimen/dial_key_marginstart"-->
+
+    <View style="@style/style_view_fill" />
+    <!-- android:text="@string/tv_dial_conn"-->
+    <com.jancar.bluetooth.view.AutofitTextView
+        android:id="@+id/tv_dial_num"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ddffffff"
+        android:textDirection="anyRtl"
+        android:textSize="@dimen/dial_txt_size"
+        app:sizeToFit="true"/>
+
+    <View style="@style/style_view_fill" />
+</LinearLayout>

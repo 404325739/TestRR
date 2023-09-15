@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Η σύνδεση Bluetooth είναι επιτυχής</string>
+    <string name="tv_dial_not_conn">Το Bluetooth δεν είναι συνδεδεμένο</string>
+    <string name="call_number_short_toast">Ο αριθμός είναι πολύ μικρός!</string>
+    <string name="dialog_downing">λήψη ...</string>
+    <string name="call_number_unknown">(άγνωστος)</string>
+    <string name="tv_contact_blu_tip">Το Bluetooth δεν είναι συνδεδεμένο, συνδεθείτε πρώτα!</string>
+    <string name="tv_contact_null">Η λήψη της επαφής απέτυχε. Κάντε λήψη ξανά!</string>
+    <string name="tv_record_null">Το αρχείο καταγραφής κλήσεων είναι κενό, κατεβάστε ξανά!</string>
+    <string name="tv_collection_null">Η λίστα αγαπημένων είναι κενή!</string>
+    <string name="contact_search">Αναζήτηση επαφών</string>
+    <string name="pair_device">Σύζευξη συσκευής</string>
+    <string name="search_device">Ανακαλύψτε τη συσκευή</string>
+    <string name="bt_link_success">Το Bluetooth είναι συνδεδεμένο</string>
+    <string name="bt_link_fail">Η σύνδεση Bluetooth απέτυχε</string>
+    <string name="bt_unlink_success">Το Bluetooth αποσυνδέθηκε</string>
+    <string name="bt_unlink_fail">Η αποσύνδεση Bluetooth απέτυχε</string>
+    <string name="bt_unpair_success">Η σύνδεση Bluetooth αποσυνδέθηκε</string>
+    <string name="bt_unpair_fail">Η αποσύνδεση και η σύνδεση Bluetooth απέτυχαν</string>
+    <string name="menu_dial">καντράν</string>
+    <string name="menu_contact">Επικοινωνία</string>
+    <string name="menu_history">αρχεία κλήσεων</string>
+    <string name="menu_fav">Αγαπημένα</string>
+    <string name="menu_device">Σύνδεση συσκευής</string>
+    <string name="tips_device_unconnect">Δεν είναι δυνατή η σύνδεση στο Bluetooth, αποσυνδέστε πρώτα την τρέχουσα σύνδεση</string>
+    <string name="tips_downloading_alert">Πραγματοποιείτε λήψη επαφών ή εγγραφών κλήσεων. Η έξοδος τώρα θα έχει ως αποτέλεσμα απώλεια δεδομένων. Θέλετε να συνεχίσετε;</string>
+    <string name="text_listening">Ακούγοντας</string>
+    <string name="external_device_disable_bt">Το περιφερειακό είναι συνδεδεμένο και η λειτουργία Bluetooth είναι απενεργοποιημένη.</string>
+    <string name="settings_tv_btstate">Διακόπτης Bluetooth</string>
+    <string name="settings_tv_btname">Όνομα Bluetooth</string>
+    <string name="settings_tv_btpin">Κωδικός PIN Bluetooth</string>
+    <string name="settings_tv_edit_btpin">Τροποποιήστε τον κωδικό PIN Bluetooth</string>
+    <string name="settings_tv_editdialog_ok">Σίγουρος</string>
+    <string name="settings_switch_on">Άνοιξε</string>
+    <string name="settings_switch_off">κλειστός</string>
+    <string name="status_connected">Συνδεδεμένος</string>
+    <string name="status_paired">Ζευγάρισε</string>
+    <string name="status_unpaired">Μη ζευγαρωμένο</string>
+    <string name="status_pairing">Σύζευξη</string>
+    <string name="status_connecting">συνδετικός</string>
+    <string name="settings_tv_edit_btname">Τροποποίηση ονόματος Bluetooth</string>
+</resources>

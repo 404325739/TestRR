@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--原有的定义-->
+    <string name="tv_dial_conn">请输入号码</string>
+    <string name="contact_search">请输入关键字</string>
+    <string name="pair_device">已配对的设备</string>
+    <string name="search_device">可用设备</string>
+    <string name="menu_dial">蓝牙拨号</string>
+    <string name="menu_device">蓝牙连接</string>
+    <string name="call_number_unknown">未知</string>
+
+    <!--ac8257_YQQD_DY801新增-->
+    <string name="menu_btmusic">蓝牙音乐</string>
+    <string name="menu_setting">蓝牙设置</string>
+    <string name="btmusic_tv_track">歌曲名</string>
+    <string name="btmusic_tv_artist">歌手名</string>
+    <string name="device_btn_search">搜索</string>
+    <string name="device_btn_connect">连接</string>
+    <string name="device_btn_disconnect">断开</string>
+    <string name="settings_tv_autolink">自动连接</string>
+    <string name="settings_tv_autoanswer">自动应答</string>
+</resources>

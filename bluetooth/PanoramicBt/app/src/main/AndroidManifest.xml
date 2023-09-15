@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jancar.bluetooth"
+    tools:ignore="ProtectedPermissions"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+    <uses-permission android:name="com.jancar.btservice.permission" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/bt"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/BtAppTheme">
+        <!--<meta-data
+            android:name="design_width_in_dp"
+            android:value="800" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="480" />-->
+        <meta-data
+            android:name="design_width_in_dp"
+            android:value="1024" />
+        <meta-data
+            android:name="design_height_in_dp"
+            android:value="600" />
+        <meta-data
+            android:name="channelName"
+            android:value="${CHANNEL_ID}" />
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustNothing"
+            android:resizeableActivity="true"
+            >
+            <!--用这个风格会改切换动画，与其他应用不一致。名商有意见
+            android:theme="@style/NoTitleTranslucentTheme"-->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--<action android:name="android.settings.BLUETOOTH_SETTINGS" />-->
+        <activity
+        android:name=".ui.TranslucentActivity"
+        android:theme="@style/TranslucentActivity"/>
+        <activity
+            android:name=".ui.BluetoothDeviceActivity"
+            android:windowSoftInputMode="adjustNothing"
+            android:launchMode="singleInstance"
+            android:resizeableActivity="true"
+            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation|locale"
+            android:theme="@style/NoTitleTranslucentTheme">
+            <intent-filter>
+                <action android:name="com.jancar.bluetoothsettings" />
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.BtAppService"
+            android:persistent="true"
+            android:exported="true" />
+
+        <service
+            android:exported="true"
+            android:name=".services.VoiceService">
+            <intent-filter>
+                <action android:name="jancar.action.bluetooth_voice"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".recv.BtBroadcastReceiver"
+            android:permission="com.jancar.btservice.permission">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.jancar.services.ready" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.jancar.bluetooth.provider.PhoneBookProvider"
+            android:authorities="com.jancar.bluetooth"
+            android:exported="true" />
+
+        <!-- 蓝牙音乐播放服务 -->
+        <service android:name="com.jancar.bluetooth.services.A2DPService"/>
+    </application>
+
+</manifest>

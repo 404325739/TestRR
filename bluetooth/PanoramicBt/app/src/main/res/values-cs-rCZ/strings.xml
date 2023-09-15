@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Připojení Bluetooth je úspěšné</string>
+    <string name="tv_dial_not_conn">Bluetooth není připojeno</string>
+    <string name="call_number_short_toast">Číslo je příliš krátké!</string>
+    <string name="dialog_downing">stahování ...</string>
+    <string name="call_number_unknown">(neznámý)</string>
+    <string name="tv_contact_blu_tip">Bluetooth není připojeno, nejprve se připojte!</string>
+    <string name="tv_contact_null">Stažení kontaktu se nezdařilo, prosím stáhněte znovu!</string>
+    <string name="tv_record_null">Protokol hovorů je prázdný, stáhněte si jej prosím znovu!</string>
+    <string name="tv_collection_null">Seznam oblíbených je prázdný!</string>
+    <string name="contact_search">Vyhledejte kontakty</string>
+    <string name="pair_device">Spárované zařízení</string>
+    <string name="search_device">Objevte zařízení</string>
+    <string name="bt_link_success">Bluetooth je připojeno</string>
+    <string name="bt_link_fail">Připojení Bluetooth se nezdařilo</string>
+    <string name="bt_unlink_success">Bluetooth je odpojeno</string>
+    <string name="bt_unlink_fail">Odpojení Bluetooth se nezdařilo</string>
+    <string name="bt_unpair_success">Párování Bluetooth je odpojeno</string>
+    <string name="bt_unpair_fail">Odpojení a párování Bluetooth se nezdařilo</string>
+    <string name="menu_dial">vytočit</string>
+    <string name="menu_contact">Kontaktní osoba</string>
+    <string name="menu_history">záznamy hovorů</string>
+    <string name="menu_fav">Oblíbené</string>
+    <string name="menu_device">Připojení zařízení</string>
+    <string name="tips_device_unconnect">Nelze se připojit k Bluetooth, nejprve odpojte aktuální připojení</string>
+    <string name="tips_downloading_alert">Stahujete kontakty nebo protokoly hovorů. Opuštění aplikace bude mít za následek chybějící data. Chcete pokračovat?</string>
+    <string name="text_listening">Naslouchání</string>
+    <string name="external_device_disable_bt">Periferní zařízení je připojeno a funkce Bluetooth je deaktivována.</string>
+    <string name="settings_tv_btstate">Bluetooth spínač</string>
+    <string name="settings_tv_btname">Název Bluetooth</string>
+    <string name="settings_tv_btpin">Bluetooth PIN kód</string>
+    <string name="settings_tv_edit_btpin">Upravte PIN kód Bluetooth</string>
+    <string name="settings_tv_editdialog_ok">Tak určitě</string>
+    <string name="settings_switch_on">otevřeno</string>
+    <string name="settings_switch_off">zavřít</string>
+    <string name="status_connected">Připojeno</string>
+    <string name="status_paired">Spárováno</string>
+    <string name="status_unpaired">Nespárováno</string>
+    <string name="status_pairing">Párování</string>
+    <string name="status_connecting">spojovací</string>
+    <string name="settings_tv_edit_btname">Upravit název Bluetooth</string>
+</resources>

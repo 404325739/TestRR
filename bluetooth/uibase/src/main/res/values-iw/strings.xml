@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="loading">טוען</string>
+    <string name="dialog_btn_sure">בטוח</string>
+    <string name="dialog_btn_cancel">ביטול</string>
+    <string name="line">קו</string>
+    <string name="inand">מקומי</string>
+    <string name="sdcard">SD</string>
+    <string name="sdcard1">SD1</string>
+    <string name="usb">USB</string>
+    <string name="usb1">USB1</string>
+    <string name="usb2">USB2</string>
+    <string name="usb3">USB3</string>
+    <string name="usb4">USB4</string>
+    <string name="usb5">USB5</string>
+    <string name="usb6">USB6</string>
+    <string name="usb7">USB7</string>
+
+</resources>

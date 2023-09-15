@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="AutofitTextView">
+        <attr name="sizeToFit" format="boolean" />
+        <attr name="minTextSize" format="dimension" />
+        <attr name="precision" format="boolean" />
+    </declare-styleable>
+</resources>

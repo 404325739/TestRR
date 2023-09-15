@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llayout_pair_device"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_device_height"
+    android:background="@drawable/item_recycle_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_pair_state"
+        android:layout_width="@dimen/px50"
+        android:layout_height="@dimen/px50"
+        android:src="@drawable/ic_bt_link_n" />
+
+    <TextView
+        android:id="@+id/tv_pair_name"
+        style="@style/txt_px24"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/px5"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxWidth="@dimen/px310"
+        android:singleLine="true"
+        tools:text="JAC000A1-3455" />
+
+    <TextView
+        android:id="@+id/tv_pair_status"
+        style="@style/txt_px16"
+        android:layout_width="wrap_content"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:ellipsize="end"
+        android:maxWidth="@dimen/px310"
+        android:singleLine="true"
+        android:visibility="gone"
+        tools:text="Paired" />
+
+    <TextView
+        android:id="@+id/tv_pair_addr"
+        style="@style/txt_px24"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/px10"
+        android:singleLine="true"
+        tools:text="MACADDMACADD" />
+
+</LinearLayout>

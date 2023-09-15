@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Bluetooth bağlantısı başarılı</string>
+    <string name="tv_dial_not_conn">Bluetooth bağlı değil</string>
+    <string name="call_number_short_toast">Sayı çok kısa!</string>
+    <string name="dialog_downing">indiriliyor ...</string>
+    <string name="call_number_unknown">(Bilinmeyen)</string>
+    <string name="tv_contact_blu_tip">Bluetooth bağlı değil, lütfen önce bağlanın!</string>
+    <string name="tv_contact_null">Kişi indirilemedi, lütfen tekrar indirin!</string>
+    <string name="tv_record_null">Çağrı kaydı boş, lütfen tekrar indirin!</string>
+    <string name="tv_collection_null">Favori listesi boş!</string>
+    <string name="contact_search">Kişileri ara</string>
+    <string name="pair_device">eşleştirilmiş cihaz</string>
+    <string name="search_device">Cihazı keşfedin</string>
+    <string name="bt_link_success">Bluetooth bağlandı</string>
+    <string name="bt_link_fail">Bluetooth bağlantısı başarısız</string>
+    <string name="bt_unlink_success">Bluetooth bağlantısı kesildi</string>
+    <string name="bt_unlink_fail">Bluetooth bağlantısı kesilemedi</string>
+    <string name="bt_unpair_success">Bluetooth eşleştirmesi kayboldu</string>
+    <string name="bt_unpair_fail">Bluetooth bağlantısı kesildi, eşleştirme başarısız</string>
+    <string name="menu_dial">aramak</string>
+    <string name="menu_contact">Rehber</string>
+    <string name="menu_history">arama kayıtları</string>
+    <string name="menu_fav">toplamak</string>
+    <string name="menu_device">Cihaz bağlantısı</string>
+    <string name="tips_device_unconnect">"Bluetooth'a bağlanılamıyor, lütfen önce mevcut bağlantıyı kesin"</string>
+    <string name="tips_downloading_alert">Kişi veya arama kaydı indiriliyor. Şimdi oturumu kapatmak, verilerin kaybolmasına neden olacak. Devam etmek istiyor musunuz?</string>
+    <string name="text_listening">Dinleme</string>
+    <string name="external_device_disable_bt">Çevre birimi bağlı ve Bluetooth işlevi devre dışı.</string>
+    <string name="settings_tv_btstate">Bluetooth</string>
+    <string name="settings_tv_btname">Bluetooth Adı</string>
+    <string name="settings_tv_btpin">Bluetooth PIN kodu</string>
+    <string name="settings_tv_edit_btname">Bluetooth adını değiştir</string>
+    <string name="settings_tv_editdialog_ok">Emin olmak</string>
+    <string name="settings_switch_on">Açık</string>
+    <string name="settings_switch_off">Kapalı</string>
+    <string name="status_connected">bağlı</string>
+    <string name="status_paired">eşleştirilmiş</string>
+    <string name="status_unpaired">eşleştirilmemiş</string>
+    <string name="status_pairing">Eşleştirme</string>
+    <string name="status_connecting">Bağlanıyor</string>
+    <string name="settings_tv_edit_btpin">Bluetooth PIN kodunu değiştirin</string>
+</resources>

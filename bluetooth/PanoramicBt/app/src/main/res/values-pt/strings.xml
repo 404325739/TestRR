@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Conexão Bluetooth com sucesso</string>
+    <string name="tv_dial_not_conn">Bluetooth não está conectado</string>
+    <string name="call_number_short_toast">O número é muito curto!</string>
+    <string name="dialog_downing">baixando...</string>
+    <string name="call_number_unknown">(desconhecido)</string>
+    <string name="tv_contact_blu_tip">O Bluetooth não está conectado, conecte primeiro!</string>
+    <string name="tv_contact_null">Falha no download do contato, faça o download novamente!</string>
+    <string name="tv_record_null">O registro de chamadas está vazio, faça o download novamente!</string>
+    <string name="tv_collection_null">A lista de favoritos está vazia!</string>
+    <string name="contact_search">Pesquisar contatos</string>
+    <string name="pair_device">Dispositivo pareado</string>
+    <string name="search_device">Descubra o dispositivo</string>
+    <string name="bt_link_success">Bluetooth está conectado</string>
+    <string name="bt_link_fail">Falha na conexão Bluetooth</string>
+    <string name="bt_unlink_success">Bluetooth está desconectado</string>
+    <string name="bt_unlink_fail">Falha na desconexão do Bluetooth</string>
+    <string name="bt_unpair_success">O emparelhamento Bluetooth está desconectado</string>
+    <string name="bt_unpair_fail">Falha na desconexão e pareamento do Bluetooth</string>
+    <string name="menu_dial">discar</string>
+    <string name="menu_contact">Pessoa de contato</string>
+    <string name="menu_history">Call Records</string>
+    <string name="menu_fav">Favoritos</string>
+    <string name="menu_device">Conexão de dispositivo</string>
+    <string name="tips_device_unconnect">Não é possível conectar ao Bluetooth, desconecte a conexão atual primeiro</string>
+    <string name="tips_downloading_alert">Você está fazendo download de contatos ou registros de chamadas. Sair agora resultará na perda de dados. Quer continuar?</string>
+    <string name="text_listening">Ouvindo</string>
+    <string name="external_device_disable_bt">O periférico está conectado e a função Bluetooth está desativada.</string>
+    <string name="settings_tv_btstate">Interruptor Bluetooth</string>
+    <string name="settings_tv_btname">Nome bluetooth</string>
+    <string name="settings_tv_btpin">Código PIN Bluetooth</string>
+    <string name="settings_tv_edit_btname">Modificar o nome do Bluetooth</string>
+    <string name="settings_tv_editdialog_ok">Certo</string>
+    <string name="settings_switch_on">abrir</string>
+    <string name="settings_switch_off">fechar</string>
+    <string name="status_connected">Conectado</string>
+    <string name="status_paired">Emparelhados</string>
+    <string name="status_unpaired">Não emparelhado</string>
+    <string name="status_pairing">Emparelhamento</string>
+    <string name="status_connecting">conectando</string>
+    <string name="settings_tv_edit_btpin">Modificar o código PIN do Bluetooth</string>
+</resources>

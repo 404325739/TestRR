@@ -1,0 +1,111 @@
+<resources>
+
+    <style name="style_tab_rl">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:background">@drawable/tab_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="style_tab_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="style_tab_iv">
+        <item name="android:layout_width">46px</item>
+        <item name="android:layout_height">46px</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <style name="style_tab_tv" parent="@style/txt_px24">
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="style_tab_div">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bt_tab_div</item>
+    </style>
+
+    <style name="style_dial_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginStart">@dimen/dial_ll_marginstart</item>
+    </style>
+    <style name="style_dial_iv1">
+        <item name="android:layout_width">@dimen/dial_btn_width</item>
+        <item name="android:layout_height">@dimen/dial_btn_height</item>
+    </style>
+    <style name="style_dial_iv2">
+        <item name="android:layout_width">@dimen/dial_btn_width</item>
+        <item name="android:layout_height">@dimen/dial_btn_height</item>
+        <item name="android:layout_marginStart">@dimen/dial_num_margin</item>
+        <item name="android:layout_marginEnd">@dimen/dial_num_margin</item>
+    </style>
+    <style name="style_view_dial_fill">
+        <item name="android:layout_width">0px</item>
+        <item name="android:layout_height">0px</item>
+    </style>
+    <style name="style_view_dial_ll_fill">
+        <item name="android:layout_width">0px</item>
+        <item name="android:layout_height">0px</item>
+    </style>
+    <style name="style_contacts_mid_ll">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="style_record_type_iv">
+        <item name="android:layout_width">190px</item>
+        <item name="android:layout_height">86px</item>
+    </style>
+    <style name="style_record_right_iv">
+        <item name="android:layout_width">121px</item>
+        <item name="android:layout_height">184px</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="style_device_title_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/tip_textsize</item>
+        <item name="android:paddingStart">10px</item>
+        <item name="android:layout_marginTop">30px</item>
+    </style>
+    <style name="style_settings_ll">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">87px</item>
+        <item name="android:paddingStart">@dimen/px30</item>
+        <item name="android:paddingEnd">@dimen/px60</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="style_settings_tv" parent="txt_default">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="style_settings_btn">
+        <item name="android:layout_width">@dimen/px200</item>
+        <item name="android:layout_height">@dimen/px40</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/iv_settings_namepin_btn</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingStart">@dimen/px5</item>
+        <item name="android:paddingEnd">@dimen/px5</item>
+    </style>
+</resources>

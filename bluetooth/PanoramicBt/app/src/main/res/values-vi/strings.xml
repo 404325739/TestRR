@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">Kết nối Bluetooth thành công</string>
+    <string name="tv_dial_not_conn">Bluetooth không được kết nối</string>
+    <string name="call_number_short_toast">Con số quá ngắn!</string>
+    <string name="dialog_downing">đang tải xuống ...</string>
+    <string name="call_number_unknown">(không xác định)</string>
+    <string name="tv_contact_blu_tip">Bluetooth chưa được kết nối, vui lòng kết nối trước!</string>
+    <string name="tv_contact_null">Liên hệ tải xuống không thành công, vui lòng tải lại!</string>
+    <string name="tv_record_null">Nhật ký cuộc gọi trống, vui lòng tải xuống lại!</string>
+    <string name="tv_collection_null">Danh sách yêu thích trống!</string>
+    <string name="contact_search">Tìm kiếm địa chỉ liên hệ</string>
+    <string name="pair_device">Thiết bị được ghép nối</string>
+    <string name="search_device">Khám phá thiết bị</string>
+    <string name="bt_link_success">Bluetooth được kết nối</string>
+    <string name="bt_link_fail">Kết nối Bluetooth không thành công</string>
+    <string name="bt_unlink_success">Bluetooth bị ngắt kết nối</string>
+    <string name="bt_unlink_fail">Ngắt kết nối Bluetooth không thành công</string>
+    <string name="bt_unpair_success">Ghép nối Bluetooth bị ngắt kết nối</string>
+    <string name="bt_unpair_fail">Không thể ghép nối và ngắt kết nối Bluetooth</string>
+    <string name="menu_dial">quay số</string>
+    <string name="menu_contact">Người liên hệ</string>
+    <string name="menu_history">hồ sơ cuộc gọi</string>
+    <string name="menu_fav">Yêu thích</string>
+    <string name="menu_device">Kết nối thiết bị</string>
+    <string name="tips_device_unconnect">Không thể kết nối với Bluetooth, trước tiên hãy ngắt kết nối hiện tại</string>
+    <string name="tips_downloading_alert">Bạn đang tải xuống danh bạ hoặc bản ghi cuộc gọi. Việc thoát ngay bây giờ sẽ làm mất dữ liệu. Bạn có muốn tiếp tục không?</string>
+    <string name="text_listening">Nghe</string>
+    <string name="external_device_disable_bt">Thiết bị ngoại vi được kết nối và chức năng Bluetooth bị tắt.</string>
+    <string name="settings_tv_btstate">Công tắc Bluetooth</string>
+    <string name="settings_tv_btname">Tên Bluetooth</string>
+    <string name="settings_tv_btpin">Mã PIN Bluetooth</string>
+    <string name="settings_tv_edit_btname">Sửa đổi tên Bluetooth</string>
+    <string name="settings_tv_editdialog_ok">Đảm bảo</string>
+    <string name="settings_switch_on">mở ra</string>
+    <string name="settings_switch_off">đóng cửa</string>
+    <string name="status_connected">Đã kết nối</string>
+    <string name="status_paired">Ghép đôi</string>
+    <string name="status_unpaired">Chưa ghép nối</string>
+    <string name="status_pairing">Ghép nối</string>
+    <string name="status_connecting">Đang kết nối</string>
+    <string name="settings_tv_edit_btpin">Sửa đổi mã PIN Bluetooth</string>
+</resources>

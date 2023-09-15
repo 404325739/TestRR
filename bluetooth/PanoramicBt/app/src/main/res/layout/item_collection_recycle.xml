@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/collection_rel"
+    android:layout_width="match_parent"
+    android:descendantFocusability="afterDescendants"
+    android:layout_height="60dp"
+    android:background="@drawable/item_recycle_selector">
+
+    <TextView
+        android:id="@+id/tv_collection_name"
+        style="@style/txt_px26"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/px40"
+        android:singleLine="true"
+        tools:text="小明" />
+
+    <TextView
+        android:id="@+id/tv_collection_number"
+        style="@style/txt_px26"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/marginstart_30"
+        android:singleLine="true"
+        android:layout_toEndOf="@id/tv_collection_name"
+        tools:text="134 4590 7820" />
+
+    <ImageView
+        android:id="@+id/iv_collection"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:scaleType="center"
+        android:src="@drawable/iv_contact_collect_select" />
+</RelativeLayout>

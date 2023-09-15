@@ -1,0 +1,56 @@
+<resources>
+    <string name="tv_dial_conn">Bluetooth connection successful</string>
+    <string name="tv_dial_not_conn">Bluetooth disconnected</string>
+    <string name="call_number_short_toast">Number is too short ！</string>
+    <string name="dialog_downing">downloading...</string>
+    <string name="call_number_unknown">(Unknown)</string>
+    <string name="tv_contact_blu_tip">Bluetooth unconnected,Please connect !</string>
+    <string name="tv_contact_null">Contact download failed, please download again !</string>
+    <string name="tv_record_null">The call record is empty ,please download again !</string>
+    <string name="tv_collection_null">The favorites list is empty,please download again !</string>
+    <string name="contact_search">Contact search</string>
+    <string name="pair_device">Paired devices</string>
+    <string name="search_device">New devices</string>
+    <string name="bt_link_success">Bluetooth is connected</string>
+    <string name="bt_link_fail">Bluetooth connection failed</string>
+    <string name="bt_unlink_success">Bluetooth is disconnected</string>
+    <string name="bt_unlink_fail">Bluetooth disconnection failed</string>
+    <string name="bt_unpair_success">Bluetooth has been unbound</string>
+    <string name="bt_unpair_fail">Bluetooth unbinding failed</string>
+    <string name="menu_dial">Dial</string>
+    <string name="menu_contact">Contacts</string>
+    <string name="menu_history">History</string>
+    <string name="menu_fav">Favorites</string>
+    <string name="menu_device">Devices</string>
+    <string name="tips_device_unconnect">Cannot connect to Bluetooth, please disconnect the current connection first</string>
+    <string name="tips_downloading_alert">Downloading contact or call record. Exiting now will result in data loss. Do you want to continue?</string>
+    <string name="text_listening">Listening</string>
+    <string name="external_device_disable_bt">External device connected, bluetooth disabled</string>
+    <string name="settings_tv_btstate">Bluetooth Switch</string>
+    <string name="settings_tv_btname">Bluetooth Name</string>
+    <string name="settings_tv_btpin">PIN Code</string>
+    <string name="settings_tv_edit_btname">Edit Bluetooth Name</string>
+    <string name="settings_tv_edit_btpin">Edit PIN Code</string>
+    <string name="settings_tv_editdialog_ok">OK</string>
+    <string name="settings_switch_on">On</string>
+    <string name="settings_switch_off">Off</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_paired">Paired</string>
+    <string name="status_unpaired">Not paired</string>
+    <string name="status_pairing">Paring</string>
+    <string name="status_connecting">Connecting</string>
+
+    <!--ac8257_YQQD_DY801新增-->
+    <string name="menu_btmusic">Bt Music</string>
+    <string name="menu_setting">Settings</string>
+    <string name="btmusic_tv_track">Track Name</string>
+    <string name="btmusic_tv_artist">Artist</string>
+    <string name="device_btn_search">Search</string>
+    <string name="device_btn_connect">Connect</string>
+    <string name="device_btn_disconnect">Disconnect</string>
+    <string name="settings_tv_autolink">Auto Connect</string>
+    <string name="settings_tv_autoanswer">Auto Answer</string>
+
+    <!--不需要翻译的写在后面，方便后面加翻译-->
+    <string name="call_record_count" translatable="false">(%d)</string>
+</resources>

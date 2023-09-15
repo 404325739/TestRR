@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/main_layout_bar_width"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bar_bg"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!--拨号键盘-->
+    <RelativeLayout
+        android:id="@+id/tab_dial_manager"
+        style="@style/style_tab_rl">
+
+        <ImageView
+            android:id="@+id/iv_div_dial"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_dial">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_dial_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_dial" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--联系人-->
+    <RelativeLayout
+        android:id="@+id/tab_contact_manager"
+        style="@style/style_tab_rl">
+
+        <ImageView
+            android:id="@+id/iv_div_contact"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_contact">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_contact_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_contact" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--通话记录-->
+    <RelativeLayout
+        android:id="@+id/tab_records_manager"
+        style="@style/style_tab_rl">
+
+        <ImageView
+            android:id="@+id/iv_div_records"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_records">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_records_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_history" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--蓝牙音乐-->
+    <RelativeLayout
+        android:id="@+id/tab_btmusic_manager"
+        style="@style/style_tab_rl">
+
+        <ImageView
+            android:id="@+id/iv_div_btmuisc"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_btmuisc">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_btmusic_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_btmusic" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--设备链接-->
+    <RelativeLayout
+        android:id="@+id/tab_device_manager"
+        style="@style/style_tab_rl">
+
+        <ImageView
+            android:id="@+id/iv_div_device"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_device">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_device_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_device" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <!--蓝牙设置-->
+    <RelativeLayout
+        android:id="@+id/tab_setting_manager"
+        style="@style/style_tab_rl">
+
+        <ImageView
+            android:id="@+id/iv_div_settings"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_settings">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_settings_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_setting" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--收藏-->
+    <RelativeLayout
+        android:id="@+id/tab_collection_manager"
+        style="@style/style_tab_rl"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/iv_div_collection"
+            style="@style/style_tab_div" />
+
+        <LinearLayout
+            style="@style/style_tab_ll"
+            android:layout_below="@id/iv_div_collection">
+
+            <ImageView
+                style="@style/style_tab_iv"
+                android:background="@drawable/tab_collection_selector" />
+
+            <TextView
+                style="@style/style_tab_tv"
+                android:text="@string/menu_fav" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

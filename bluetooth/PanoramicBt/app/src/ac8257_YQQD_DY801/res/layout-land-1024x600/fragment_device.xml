@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="579px"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/paired_devices_marginstart">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_device_paired"
+                    style="@style/style_device_title_tv"
+                    android:text="@string/pair_device"
+                    android:background="@drawable/device_title_bg" />
+                <com.jancar.bluetooth.view.MyRecyclerView
+                    android:id="@+id/rv_pair"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/translucent"
+                    tools:listitem="@layout/item_device_pair" />
+
+                <TextView
+                    android:id="@+id/tv_device_new"
+                    style="@style/style_device_title_tv"
+                    android:text="@string/search_device"
+                    android:background="@drawable/device_title_bg" />
+
+                <com.jancar.bluetooth.view.MyRecyclerView
+                    android:id="@+id/rv_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/translucent"
+                    tools:listitem="@layout/item_device_pair" />
+
+            </LinearLayout>
+        </ScrollView>
+        <ProgressBar
+            android:id="@+id/loading_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress_drawble" />
+    </RelativeLayout>
+
+    <include layout="@layout/layout_device_right"/>
+
+    <LinearLayout
+        android:id="@+id/ll_device_title"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:layout_marginEnd="@dimen/paired_devices_marginstart"
+        android:layout_weight="3"
+        android:background="@drawable/loading_dialog_bg"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            style="@style/style_device_title_tv"
+            android:text="@string/pair_device"/>
+
+        <TextView
+            style="@style/style_device_title_tv"
+            android:text="@string/search_device"/>
+
+    </LinearLayout>
+</LinearLayout>

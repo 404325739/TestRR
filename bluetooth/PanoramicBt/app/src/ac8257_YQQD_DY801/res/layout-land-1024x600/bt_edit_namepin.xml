@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/settings_dialog_width"
+    android:layout_height="@dimen/settings_dialog_height"
+    android:background="@drawable/settings_edit_bg">
+
+    <TextView
+        android:id="@+id/tv_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px40"
+        android:layout_marginTop="@dimen/px45"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_edit"
+        android:layout_width="@dimen/settings_dialog_edittext_width"
+        android:layout_height="@dimen/settings_dialog_edittext_height"
+        android:layout_below="@id/tv_edit_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px15"
+        android:background="@drawable/edittext_bg"
+        android:paddingStart="@dimen/px10"
+        android:paddingEnd="@dimen/px10"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:singleLine="true"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/btn_edit_ok"
+        android:layout_width="@dimen/settings_dialog_btn_width"
+        android:layout_height="@dimen/settings_dialog_btn_height"
+        android:layout_below="@id/et_edit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px20"
+        android:background="@drawable/iv_settings_editok_selector"
+        android:text="确定"
+        android:textSize="20sp" />
+</RelativeLayout>

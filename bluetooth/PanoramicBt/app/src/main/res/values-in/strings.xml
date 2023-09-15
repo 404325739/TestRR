@@ -1,0 +1,43 @@
+<resources>
+	<string name="tv_dial_conn">Koneksi Bluetooth berhasil</string>
+	<string name="tv_dial_not_conn">Bluetooth tidak terhubung</string>
+	<string name="call_number_short_toast">Jumlahnya terlalu pendek!</string>
+	<string name="dialog_downing">mengunduh...</string>
+	<string name="call_number_unknown">(tidak dikenal)</string>
+	<string name="tv_contact_blu_tip">Bluetooth tidak terhubung, silakan sambungkan dulu!</string>
+	<string name="tv_contact_null">Unduhan kontak gagal, silakan unduh lagi!</string>
+	<string name="tv_record_null">Log panggilan kosong, silakan unduh lagi!</string>
+	<string name="tv_collection_null">Daftar favorit kosong!</string>
+	<string name="contact_search">Cari kontak</string>
+	<string name="pair_device">Perangkat yang dipasangkan</string>
+	<string name="search_device">Temukan perangkat</string>
+	<string name="bt_link_success">Bluetooth terhubung</string>
+	<string name="bt_link_fail">Koneksi Bluetooth gagal</string>
+	<string name="bt_unlink_success">Bluetooth terputus</string>
+	<string name="bt_unlink_fail">Pemutusan sambungan Bluetooth gagal</string>
+	<string name="bt_unpair_success">Penyandingan Bluetooth terputus</string>
+	<string name="bt_unpair_fail">Pemutusan dan penyandingan Bluetooth gagal</string>
+	<string name="menu_dial">panggil</string>
+	<string name="menu_contact">Kontak person</string>
+	<string name="menu_history">catatan panggilan</string>
+	<string name="menu_fav">mengumpulkan</string>
+	<string name="menu_device">Koneksi perangkat</string>
+	<string name="tips_device_unconnect">Tidak dapat terhubung ke Bluetooth, harap putuskan koneksi saat ini terlebih dahulu</string>
+	<string name="tips_downloading_alert">Anda sedang mengunduh kontak atau log panggilan. Keluar sekarang akan mengakibatkan hilangnya data. Apakah Anda ingin melanjutkan?</string>
+	<string name="text_listening">Mendengarkan</string>
+	<string name="external_device_disable_bt">Periferal terhubung dan fungsi Bluetooth dinonaktifkan.</string>
+	<string name="settings_tv_btstate">sakelar Bluetooth</string>
+	<string name="settings_tv_btname">Nama Bluetooth</string>
+	<string name="settings_tv_btpin">Kode PIN Bluetooth</string>
+    <string name="settings_tv_edit_btname">Ubah nama Bluetooth</string>
+	<string name="settings_tv_editdialog_ok">Tentu</string>
+	<string name="settings_switch_on">membuka</string>
+	<string name="settings_switch_off">ditutup</string>
+	<string name="status_connected">Terhubung</string>
+	<string name="status_paired">berpasangan</string>
+	<string name="status_unpaired">Tidak berpasangan</string>
+	<string name="status_pairing">Memasangkan</string>
+	<string name="status_connecting">menghubungkan</string>
+	<string name="settings_tv_edit_btpin">Ubah kode PIN Bluetooth</string>
+
+</resources>

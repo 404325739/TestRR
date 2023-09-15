@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_call"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/callwindow_halfscreen_height"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/iv_half_screen_bg"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_screen_call_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_call_name"
+            style="@style/txt_px26"
+            android:layout_width="@dimen/px250"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/px10"
+            android:layout_marginEnd="@dimen/px10"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="小明小明小明小明小明小明"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_call_type"
+            style="@style/txt_px26"
+            android:layout_width="@dimen/px140"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/px10"
+            android:ellipsize="end"
+            android:gravity="center_vertical|right"
+            android:singleLine="true"
+            android:text="通话中" />
+
+        <TextView
+            android:id="@+id/tv_call_time_type"
+            style="@style/txt_px26"
+            android:layout_width="@dimen/px140"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="00:00" />
+    </LinearLayout>
+
+    <!-- 来电layout -->
+    <LinearLayout
+        android:id="@+id/ll_incoming"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ib_mute"
+            style="@style/style_half_screen_btn"
+            android:src="@drawable/iv_call_mute_selector"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/ib_answer"
+            style="@style/style_half_screen_btn"
+            android:src="@drawable/iv_call_answer_selector" />
+
+        <ImageView
+            android:id="@+id/ib_hangup"
+            style="@style/style_half_screen_btn"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/iv_call_hangup_selector" />
+
+        <ImageView
+            android:id="@+id/ib_source"
+            style="@style/style_half_screen_btn"
+            android:src="@drawable/iv_call_source_car_selector" />
+
+        <ImageView
+            android:id="@+id/ib_keypad"
+            style="@style/style_half_screen_btn"
+            android:src="@drawable/iv_call_keypad_selector" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="loading">加载中</string>
+    <string name="dialog_btn_sure">确定</string>
+    <string name="dialog_btn_cancel">取消</string>
+    <string name="line">分割线</string>
+    <string name="inand">本机</string>
+    <string name="sdcard">SD卡</string>
+    <string name="sdcard1">SD卡1</string>
+    <string name="usb">USB</string>
+    <string name="usb1">USB1</string>
+    <string name="usb2">USB2</string>
+    <string name="usb3">USB3</string>
+    <string name="usb4">USB4</string>
+    <string name="usb5">USB5</string>
+    <string name="usb6">USB6</string>
+    <string name="usb7">USB7</string>
+
+</resources>

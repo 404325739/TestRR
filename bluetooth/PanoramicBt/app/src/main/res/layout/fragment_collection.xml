@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/marginstart_30"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/collection_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/marginstart_30"
+        android:paddingEnd="@dimen/px60"
+        tools:listitem="@layout/item_collection_recycle" />
+
+    <TextView
+        android:id="@+id/tv_collection_tip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/px40"
+        android:ellipsize="end"
+        android:scrollbars="horizontal"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/tv_contact_blu_tip"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tip_textsize"
+        android:visibility="gone" />
+
+</LinearLayout>

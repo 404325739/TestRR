@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/call_line_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/call_num_1"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_1_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_2"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginStart="@dimen/call_num_margin"
+            android:layout_marginEnd="@dimen/call_num_margin"
+            android:background="@drawable/iv_dialog_num_2_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_3"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_3_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_line_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/call_num_4"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_4_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_5"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginStart="@dimen/call_num_margin"
+            android:layout_marginEnd="@dimen/call_num_margin"
+            android:background="@drawable/iv_dialog_num_5_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_6"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_6_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_line_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/call_num_7"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_7_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_8"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginStart="@dimen/call_num_margin"
+            android:layout_marginEnd="@dimen/call_num_margin"
+            android:background="@drawable/iv_dialog_num_8_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_9"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_9_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_line_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/call_num_star"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_star_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_0"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:layout_marginStart="@dimen/call_num_margin"
+            android:layout_marginEnd="@dimen/call_num_margin"
+            android:background="@drawable/iv_dialog_num_0_selector" />
+
+        <ImageView
+            android:id="@+id/call_num_10"
+            android:layout_width="@dimen/btn_width"
+            android:layout_height="@dimen/btn_height"
+            android:background="@drawable/iv_dialog_num_10_selector" />
+    </LinearLayout>
+
+</LinearLayout>

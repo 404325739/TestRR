@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BT Call</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- hd name -->
+    <string name="hd_keyboard_name">Keypad</string>
+    <string name="hd_contact_name">Contacts</string>
+    <string name="hd_history_name">History</string>
+    <string name="hd_devices_name">Devices</string>
+    <string name="hd_a2dp_name">BT Music</string>
+    <string name="hd_setting_name">Settings</string>
+
+    <!-- device page -->
+    <string name="dv_sousuo">Seek</string>
+    <string name="dv_disconnect">Disconnect</string>
+    <string name="dv_connect">Bluetooth connection</string>
+    <string name="dv_delete">Delete</string>
+    <string name="dv_unpair">UnPair</string>
+    <string name="dv_cnt">Connect</string>
+    <string name="dv_pair">Pair</string>
+    <string name="dv_paired">"  Paired devices"</string>
+    <string name="dv_new_device">" New devices"</string>
+    <string name="dv_request_pair">Request pairing:Please make sure that the device is available</string>
+    <string name="dv_pairing_device">Pairing with the following devices: </string>
+    <string name="dv_pin_code">Please ensure that the PIN code entered is: </string>
+
+    <!-- sett -->
+    <string name="st_devicename">Device Name:</string>
+    <string name="st_pin">Pin:</string>
+    <string name="st_autolisten">Auto Answer</string>
+    <string name="st_autolink">Auto Connect</string>
+    <string name="st_modify">Modify</string>
+
+    <!-- contact -->
+    <string name="ct_search">Search</string>
+    <string name="ct_dataformat">"Total %d Contacts"</string>
+
+    <!-- record -->
+    <string name="record_all">All Call</string>
+    <string name="record_refused">Missed Call</string>
+    <string name="record_synch"> Update </string>
+    <string name="download_wait_history_tip">Downloading call history now, please wait...</string>
+    <string name="download_wait_phonebook_tip">Downloading phonebook now, please wait...</string>
+    <string name="phonebook_unknow_name">Unknown</string>
+    <string name="download_invild">Un-Support</string>
+    <string name="call_out">Dialing Call</string>
+    <string name="call_in">Incoming Call</string>
+    <string name="call_ing">Calling</string>
+    <string name="call_number_wz">Unknown</string>
+    <string name="open_device_first">Open Bluetooth </string>
+    <string name="connect_device_first">please connect device</string>
+
+    <string name="record_called">Dialed Call</string>
+    <string name="record_listened">Received Call</string>
+    <string name="remove_device_toast">Please disconnect</string>
+    <string name="contacts_time_title">Last synchronization time:</string>
+    <string name="number_len_max">The number you entered exceeds the length!</string>
+    <string name="sync_time_out">Sync contacts timeout!</string>
+    <string name="connecting">connecting!</string>
+    <string name="connect_fail">Connection failed, please check whether the phone is turned on bluetooth.</string>
+    <string name="pin_less_error">Pin code can not be less than 4.</string>
+    <string name="connect_time_out">Connection timed out, please try again later!</string>
+
+    <string-array name="titles">
+        <item>Favorites</item>
+        <item>History</item>
+        <item>Contacts</item>
+        <item>Keypad</item>
+    </string-array>
+
+    <string name="call_to">Call to </string>
+    <string name="number_error">The number is wrong!</string>
+    <string name="touch_to_call">Touch to return to call</string>
+    <string name="reserved">Reserved</string>
+    <string name="answer">Answer</string>
+    <string name="hangup">Hang up</string>
+    <string name="hangup_three">Hang up</string>
+    <string name="mute">Mute</string>
+    <string name="navigation">Navigation</string>
+    <string name="hangup_and_answer">Hang up/answer</string>
+    <string name="keep_and_answer">Keep/answer</string>
+    <string name="phone">Phone</string>
+    <string name="replace">Switch</string>
+    <string name="merge">Merge</string>
+
+    <string name="ok">@android:string/ok</string>
+    <string name="cancel">@android:string/cancel</string>
+    <string name="st_ok">@string/ok</string>
+    <string name="default_loading" translatable="false">...</string>
+</resources>

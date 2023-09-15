@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320px"
+    android:layout_height="240px"
+    android:background="@drawable/shape_loading_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_loading_text"
+        style="@style/txt_px26"
+        android:layout_marginTop="30dp"
+        android:text="@string/dialog_downing" />
+
+    <ImageView
+        android:id="@+id/iv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/iv_loading" />
+
+</LinearLayout>

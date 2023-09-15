@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_vertical"
+	android:orientation="horizontal">
+
+	<!--数字键盘按钮-->
+	<FrameLayout
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+
+		<!-- 全屏通话界面，上面部分，电话号码，名字等显示 -->
+
+		<!-- 第三方通话时，上面部分显示 -->
+
+		<include
+			android:id="@+id/ll_screen_call_text"
+			layout="@layout/item_screen_call_phone" />
+
+		<include
+			android:id="@+id/ll_screen_three_call_text"
+			layout="@layout/include_screen_call_three_text"
+			android:visibility="visible" />
+	</FrameLayout>
+
+	<include
+		android:id="@+id/item_line_number"
+		layout="@layout/item_screen_call_number"
+		android:visibility="visible" />
+
+</LinearLayout>

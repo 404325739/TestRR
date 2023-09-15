@@ -1,0 +1,43 @@
+<resources>
+    <string name="tv_dial_conn">블루투스 연결 성공</string>
+    <string name="tv_dial_not_conn">블루투스가 연결되지 않았습니다</string>
+    <string name="call_number_short_toast">숫자가 너무 짧습니다!</string>
+    <string name="dialog_downing">다운로드 중...</string>
+    <string name="call_number_unknown">(알려지지 않은)</string>
+    <string name="tv_contact_blu_tip">블루투스가 연결되지 않았습니다. 먼저 연결하세요!</string>
+    <string name="tv_contact_null">연락처 다운로드에 실패했습니다. 다시 다운로드하십시오!</string>
+    <string name="tv_record_null">통화 기록이 비어 있습니다. 다시 다운로드하세요!</string>
+    <string name="tv_collection_null">즐겨찾기 목록이 비어 있습니다!</string>
+    <string name="contact_search">연락처 검색</string>
+    <string name="pair_device">페어링된 기기</string>
+    <string name="search_device">기기 검색</string>
+    <string name="bt_link_success">블루투스가 연결되었습니다</string>
+    <string name="bt_link_fail">블루투스 연결 실패</string>
+    <string name="bt_unlink_success">블루투스 연결이 끊겼습니다</string>
+    <string name="bt_unlink_fail">블루투스 연결 해제 실패</string>
+    <string name="bt_unpair_success">블루투스 페어링이 끊어졌습니다</string>
+    <string name="bt_unpair_fail">블루투스 연결 해제 및 페어링 실패</string>
+    <string name="menu_dial">다이얼</string>
+    <string name="menu_contact">담당자</string>
+    <string name="menu_history">통화 기록</string>
+    <string name="menu_fav">수집</string>
+    <string name="menu_device">장치 연결</string>
+    <string name="tips_device_unconnect">블루투스에 연결할 수 없습니다. 먼저 현재 연결을 끊으십시오.</string>
+    <string name="tips_downloading_alert">연락처 또는 통화 기록을 다운로드 중입니다. 지금 로그아웃하면 데이터가 손실됩니다. 계속하시겠습니까?</string>
+    <string name="text_listening">청취</string>
+    <string name="external_device_disable_bt">주변 장치가 연결되어 있고 Bluetooth 기능이 비활성화되어 있습니다.</string>
+    <string name="settings_tv_btstate">블루투스 스위치</string>
+    <string name="settings_tv_btname">블루투스 이름</string>
+    <string name="settings_tv_btpin">블루투스 PIN 코드</string>
+    <string name="settings_tv_edit_btpin">블루투스 PIN 코드 수정</string>
+    <string name="settings_tv_editdialog_ok">확신하는</string>
+    <string name="settings_switch_on">열려있는</string>
+    <string name="settings_switch_off">닫다</string>
+    <string name="status_connected">연결됨</string>
+    <string name="status_paired">페어링됨</string>
+    <string name="status_unpaired">페어링되지 않음</string>
+    <string name="status_pairing">편성</string>
+    <string name="status_connecting">연결</string>
+    <string name="settings_tv_edit_btname">블루투스 이름 수정</string>
+
+</resources>

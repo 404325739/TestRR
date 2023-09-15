@@ -1,0 +1,35 @@
+include ':app'
+
+include ':base'
+project(":base").projectDir = new File("../../../base")
+
+include ':sdk'
+project(":sdk").projectDir = new File("../../../sdk")
+
+include ':uibase'
+project(":uibase").projectDir = new File("../../../uibase")
+
+include ':viewbase'
+project(":viewbase").projectDir = new File("../../../viewbase")
+
+include ':lib-bluetooth'
+project(":lib-bluetooth").projectDir = new File("../lib-bluetooth")
+
+/*include ':lib-music'
+project(":lib-music").projectDir = new File('../../../lib-music2')
+
+
+include ':axmlrpc'
+project(':axmlrpc').projectDir = new File('../../../vlc/java-libs/axmlrpc')
+
+include ':medialibrary'
+project(':medialibrary').projectDir = new File('../../../vlc/medialibrary')
+
+include ':libvlc'
+project(':libvlc').projectDir = new File('../../../vlc/libvlc')
+
+include ':vitamio'
+project(':vitamio').projectDir = new File('../../../vitamio')
+
+include ':api'
+project(':api').projectDir = new File('../../../vlc/api')*/

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">La connexion Bluetooth est réussie</string>
+    <string name="tv_dial_not_conn">Bluetooth n\'est pas connecté</string>
+    <string name="call_number_short_toast">Le nombre est trop court!</string>
+    <string name="dialog_downing">Téléchargement...</string>
+    <string name="call_number_unknown">(inconnue)</string>
+    <string name="tv_contact_blu_tip">Bluetooth n\'est pas connecté, veuillez d\'abord vous connecter!</string>
+    <string name="tv_contact_null">Le téléchargement du contact a échoué, veuillez télécharger à nouveau!</string>
+    <string name="tv_record_null">Le journal des appels est vide, veuillez télécharger à nouveau!</string>
+    <string name="tv_collection_null">La liste des favoris est vide!</string>
+    <string name="contact_search">Rechercher des contacts</string>
+    <string name="pair_device">Appareil jumelé</string>
+    <string name="search_device">Découvrir l\'appareil</string>
+    <string name="bt_link_success">Bluetooth est connecté</string>
+    <string name="bt_link_fail">La connexion Bluetooth a échoué</string>
+    <string name="bt_unlink_success">Bluetooth est déconnecté</string>
+    <string name="bt_unlink_fail">La déconnexion Bluetooth a échoué</string>
+    <string name="bt_unpair_success">L\'appairage Bluetooth est déconnecté</string>
+    <string name="bt_unpair_fail">Échec de la déconnexion et du couplage Bluetooth</string>
+    <string name="menu_dial">cadran</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_history">enregistrements d\'appels</string>
+    <string name="menu_fav">Favoris</string>
+    <string name="menu_device">Connexion de l\'appareil</string>
+    <string name="tips_device_unconnect">Impossible de se connecter à Bluetooth, veuillez d\'abord déconnecter la connexion actuelle</string>
+    <string name="tips_downloading_alert">Vous téléchargez des contacts ou des journaux d\'appels. Quitter maintenant entraînera une perte de données. Voulez-vous continuer?</string>
+    <string name="text_listening">Écoute</string>
+    <string name="external_device_disable_bt">Het randapparaat is aangesloten en de Bluetooth-functie is uitgeschakeld.</string>
+    <string name="settings_tv_btstate">Bluetooth-schakelaar</string>
+    <string name="settings_tv_btname">Bluetooth-naam</string>
+    <string name="settings_tv_btpin">Bluetooth-pincode</string>
+    <string name="settings_tv_edit_btpin">Bluetooth-pincode wijzigen</string>
+    <string name="settings_tv_editdialog_ok">Zeker wel</string>
+    <string name="settings_switch_on">open</string>
+    <string name="settings_switch_off">dicht</string>
+    <string name="status_connected">Verbonden</string>
+    <string name="status_paired">Gekoppeld</string>
+    <string name="status_unpaired">ongepaarde</string>
+    <string name="status_pairing">Koppelen</string>
+    <string name="status_connecting">Verbinden</string>
+    <string name="settings_tv_edit_btname">Bluetooth-naam wijzigen</string>
+</resources>

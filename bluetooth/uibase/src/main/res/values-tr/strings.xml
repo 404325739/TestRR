@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="loading">yükleme</string>
+    <string name="dialog_btn_sure">belirlemek</string>
+    <string name="dialog_btn_cancel">iptal edildi</string>
+    <string name="line">Bölen çizgi</string>
+    <string name="inand">makine</string>
+    <string name="sdcard">SD kartı</string>
+    <string name="sdcard1">SD Kart 1</string>
+    <string name="usb">USB</string>
+    <string name="usb1">USB1</string>
+    <string name="usb2">USB2</string>
+    <string name="usb3">USB3</string>
+    <string name="usb4">USB4</string>
+    <string name="usb5">USB5</string>
+    <string name="usb6">USB6</string>
+    <string name="usb7">USB7</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<resources>
+    <string name="tv_dial_conn">اتصال Bluetooth ناجح</string>
+    <string name="tv_dial_not_conn">البلوتوث غير متصل</string>
+    <string name="call_number_short_toast">الرقم قصير جدا!</string>
+    <string name="dialog_downing">جارى التحميل...</string>
+    <string name="call_number_unknown">(مجهول)</string>
+    <string name="tv_contact_blu_tip">البلوتوث غير متصل ، يرجى الاتصال أولاً!</string>
+    <string name="tv_contact_null">فشل تنزيل جهة الاتصال ، يرجى التنزيل مرة أخرى!</string>
+    <string name="tv_record_null">سجل المكالمات فارغ ، يرجى التحميل مرة أخرى!</string>
+    <string name="tv_collection_null">قائمة المفضلة فارغة!</string>
+    <string name="contact_search">ابحث عن جهات الاتصال</string>
+    <string name="pair_device">جهاز مقترن</string>
+    <string name="search_device">اكتشف الجهاز</string>
+    <string name="bt_link_success">تم توصيل البلوتوث</string>
+    <string name="bt_link_fail">فشل اتصال البلوتوث</string>
+    <string name="bt_unlink_success">البلوتوث غير متصل</string>
+    <string name="bt_unlink_fail">فشل فصل البلوتوث</string>
+    <string name="bt_unpair_success">تم فصل اقتران البلوتوث</string>
+    <string name="bt_unpair_fail">فشل اتصال البلوتوث والاقتران</string>
+    <string name="menu_dial">يتصل</string>
+    <string name="menu_contact">الشخص الذي يمكن الاتصال به</string>
+    <string name="menu_history">سجلات المكالمات</string>
+    <string name="menu_fav">المفضلة</string>
+    <string name="menu_device">اتصال الجهاز</string>
+    <string name="tips_device_unconnect">لا يمكن الاتصال بالبلوتوث ، يرجى فصل الاتصال الحالي أولاً</string>
+    <string name="tips_downloading_alert">أنت تقوم بتنزيل جهات الاتصال أو سجلات المكالمات. سيؤدي الخروج الآن إلى فقدان البيانات. هل تريد المتابعة؟</string>
+    <string name="text_listening">استماع</string>
+    <string name="external_device_disable_bt">تم توصيل الجهاز الطرفي وتعطيل وظيفة Bluetooth.</string>
+    <string name="settings_tv_btstate">مفتاح بلوتوث</string>
+    <string name="settings_tv_btname">اسم البلوتوث</string>
+    <string name="settings_tv_btpin">كود PIN الخاص بالبلوتوث</string>
+    <string name="settings_tv_edit_btname">" قم بتعديل اسم البلوتوث"</string>
+    <string name="settings_tv_editdialog_ok">بالتأكيد</string>
+    <string name="settings_switch_on">افتح</string>
+    <string name="settings_switch_off">اغلق</string>
+    <string name="status_connected">متصل</string>
+    <string name="status_paired">يقترن</string>
+    <string name="status_unpaired">غير زوجي</string>
+    <string name="status_pairing">الاقتران</string>
+    <string name="status_connecting">توصيل</string>
+    <string name="settings_tv_edit_btpin">تعديل كود بلوتوث PIN</string>
+</resources>

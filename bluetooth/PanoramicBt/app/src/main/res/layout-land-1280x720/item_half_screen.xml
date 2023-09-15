@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_call"
+    android:layout_height="100px"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/iv_main_bg"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_call_name"
+            style="@style/txt_px26"
+            android:layout_width="312.5px"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25px"
+            android:layout_marginEnd="25px"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="小明小明小明小明小明小明"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_call_phone_number"
+            style="@style/txt_px26"
+            android:layout_width="312.5px"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="25px"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="135 6860 8659" />
+
+        <TextView
+            android:id="@+id/tv_call_time_type"
+            style="@style/txt_px26"
+            android:layout_width="156.25px"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="25px"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="00:00" />
+    </LinearLayout>
+
+    <!-- 来电layout -->
+    <LinearLayout
+        android:id="@+id/ll_incoming"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ib_source"
+            android:layout_width="68px"
+            android:layout_height="68px"
+            android:layout_marginEnd="60px"
+            android:visibility="gone"
+            android:src="@drawable/iv_call_voice" />
+
+        <ImageView
+            android:id="@+id/ib_answer"
+            android:layout_width="112px"
+            android:layout_height="68px"
+            android:layout_marginEnd="60px"
+            android:src="@drawable/iv_call_answer_selector" />
+
+        <ImageView
+            android:id="@+id/ib_hangup"
+            android:layout_width="112px"
+            android:layout_height="68px"
+            android:layout_marginEnd="20px"
+            android:background="@drawable/iv_call_hangup_selector" />
+
+
+    </LinearLayout>
+
+    <!-- 第三方来电的layout -->
+    <LinearLayout
+        android:id="@+id/ll_three_incoming"
+        android:layout_width="@dimen/px320"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/ib_three_source"
+            android:layout_width="68px"
+            android:layout_height="68px"
+            android:layout_marginEnd="60px"
+            android:visibility="gone"
+            android:src="@drawable/iv_call_voice" />
+
+        <ImageView
+            android:id="@+id/ib_three_hangup_answer"
+            android:layout_width="112px"
+            android:layout_height="68px"
+            android:layout_marginEnd="60px"
+            android:background="@drawable/iv_call_answer_selector" />
+
+
+        <ImageView
+            android:id="@+id/ib_three_hangup"
+            android:layout_width="112px"
+            android:layout_height="68px"
+            android:layout_marginEnd="20px"
+            android:background="@drawable/iv_call_hangup_selector" />
+
+        <ImageView
+            android:id="@+id/ib_three_keep_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

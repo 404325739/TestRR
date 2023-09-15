@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 半屏去电的高度 -->
+    <integer name="half_screen_height_talking">44</integer>
+    <integer name="half_screen_height_incomming">144</integer>
+</resources>
